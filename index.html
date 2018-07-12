@@ -17,6 +17,7 @@
     (in package.json), so its distribution bundle will be in node_modules.
   -->
   <script src="/node_modules/cspace-ui/dist/cspaceUI.js"></script>
+  <script src="/node_modules/cspace-ui-plugin-profile-anthro/dist/cspaceUIPluginProfileAnthro.js"></script>
 
   <!--
     Load the OHC profile plugin. This places the
@@ -34,6 +35,7 @@
     cspaceUI({
       serverUrl: 'http://localhost:8180',
       plugins: [
+        cspaceUIPluginProfileAnthro(),
         cspaceUIPluginProfileOHC(),
       ],
     });
