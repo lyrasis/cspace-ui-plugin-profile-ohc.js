@@ -1,35 +1,18 @@
-import { defineMessages } from 'react-intl';
+export default (configContext) => {
+  const {
+    formatRefName,
+  } = configContext.formatHelpers;
 
-export default () => ({
-  default: {
-    title: {
-      disabled: true,
+  return {
+    default: {
+      objectName: {
+        formatValue: formatRefName,
+      },
     },
-    objectName: {
-      messages: defineMessages({
-        label: {
-          id: 'column.collectionobject.default.objectName',
-          defaultMessage: 'Object name',
-        },
-      }),
-      order: 20,
-      sortBy: 'collectionobjects_common:objectNameList/0/objectName',
-      width: 450,
+    narrow: {
+      objectName: {
+        formatValue: formatRefName,
+      },
     },
-  },
-  narrow: {
-    title: {
-      disabled: true,
-    },
-    objectName: {
-      messages: defineMessages({
-        label: {
-          id: 'column.collectionobject.narrow.objectName',
-          defaultMessage: 'Object name',
-        },
-      }),
-      order: 20,
-      width: 450,
-    },
-  },
-});
+  };
+};
