@@ -13,7 +13,7 @@ Follow these instructions to download and install the source code of the plugin.
 Using git:
 
 ```
-$ git clone https://github.com/collectionspace/cspace-ui-plugin-profile-ohc.js.git
+$ git clone https://github.com/lyrasis/cspace-ui-plugin-profile-ohc.js.git
 $ cd cspace-ui-plugin-profile-ohc.js
 $ npm install
 ```
