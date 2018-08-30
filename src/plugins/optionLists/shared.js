@@ -15,15 +15,15 @@ export default () => ({
       ],
       // I think department names are proper nouns? Capitalizing them.
       messages: defineMessages({
-        'archaeology': {
+        archaeology: {
           id: 'option.departments.archaeology',
           defaultMessage: 'Archaeology',
         },
-        'education': {
+        education: {
           id: 'option.departments.education',
           defaultMessage: 'Education',
         },
-        'history': {
+        history: {
           id: 'option.departments.history',
           defaultMessage: 'History',
         },
@@ -34,5 +34,4 @@ export default () => ({
       }),
     },
   },
-})
-
+});

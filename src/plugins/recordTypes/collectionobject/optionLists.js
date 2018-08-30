@@ -633,7 +633,7 @@ export default {
       'Punch Card Number',
       'Researcher Number',
       'SOD Number',
-      'STARid'
+      'STARid',
     ],
     messages: defineMessages({
       'Additional File Number': {
