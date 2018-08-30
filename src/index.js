@@ -19,7 +19,7 @@ module.exports = () => ({
           id: 'cspaceUIPluginProfileOHC.name',
           defaultMessage: 'OHC profile',
         },
-      })
+      }),
       version: cspaceUIPluginProfileOHC.packageVersion,
     },
   },
