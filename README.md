@@ -1,6 +1,6 @@
 # cspace-ui-plugin-profile-ohc
 
-[![build status](https://travis-ci.org/collectionspace/cspace-ui-plugin-profile-ohc.js.svg?branch=master)](https://travis-ci.org/collectionspace/cspace-ui-plugin-profile-ohc.js)
+[![build status](https://travis-ci.org/collectionspace/cspace-ui-plugin-profile-ohc.js.svg?branch=master)](https://travis-ci.org/lyrasis/cspace-ui-plugin-profile-ohc.js)
 
 OHC profile plugin for the CollectionSpace UI.
 
