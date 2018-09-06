@@ -14,14 +14,14 @@ export default (configContext) => {
   return (
     <div>
       <Field name="annotationGroupList" subpath="ns2:collectionobjects_annotation">
-        <Field name="annotationGroup">
+        <Field name="annotationGroup" tabular={false}>
           <Row>
             <Field name="annotationAuthor" />
             <Field name="annotationType" />
             <Field name="annotationDate" />
           </Row>
           <Row>
-            <Field name="annotationNote" />
+            <Field name="annotationNote" multiline={true} />
           </Row>
         </Field>
       </Field>
