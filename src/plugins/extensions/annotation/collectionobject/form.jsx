@@ -21,11 +21,10 @@ export default (configContext) => {
             <Field name="annotationDate" />
           </Row>
           <Row>
-            <Field name="annotationNote" multiline={true} />
+            <Field name="annotationNote" multiline />
           </Row>
         </Field>
       </Field>
     </div>
-
   );
 };
