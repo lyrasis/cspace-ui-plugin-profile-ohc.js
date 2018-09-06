@@ -9,7 +9,6 @@ export default () => ({
     departments: {
       values: [
         'archaeology',
-        'education',
         'history',
         'natural-history',
       ],
@@ -18,10 +17,6 @@ export default () => ({
         archaeology: {
           id: 'option.departments.archaeology',
           defaultMessage: 'Archaeology',
-        },
-        education: {
-          id: 'option.departments.education',
-          defaultMessage: 'Education',
         },
         history: {
           id: 'option.departments.history',
