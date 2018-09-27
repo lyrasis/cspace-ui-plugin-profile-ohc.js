@@ -45,5 +45,6 @@ export default {
     </p>
   `,
   'field.collectionobjects_common.objectProductionPeopleGroup.name': 'Production cultural group',
+  'field.acquisitions_common.acquisitionProvisos.name': 'Restrictions',
 
 };
