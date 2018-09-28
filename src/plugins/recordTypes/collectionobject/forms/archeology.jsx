@@ -224,8 +224,6 @@ const template = (configContext) => {
           </Row>
         </Panel>
 
-        <Field name="objectHistoryNote" />
-
         <Field name="anthroOwnershipGroupList" subpath="ns2:collectionobjects_anthro">
           <Field name="anthroOwnershipGroup">
             <Field name="anthroOwner" />
@@ -233,15 +231,6 @@ const template = (configContext) => {
             <Field name="anthroOwnershipCategory" />
             <Field name="anthroOwnershipPlace" />
             <Field name="anthroOwnershipNote" />
-          </Field>
-        </Field>
-      </Panel>
-
-      <Panel name="reference" collapsible collapsed>
-        <Field name="referenceGroupList">
-          <Field name="referenceGroup">
-            <Field name="reference" />
-            <Field name="referenceNote" />
           </Field>
         </Field>
       </Panel>
@@ -263,7 +252,7 @@ export default configContext => ({
   messages: defineMessages({
     name: {
       id: 'form.collectionobject.archeology.name',
-      defaultMessage: 'Archeology Core Template',
+      defaultMessage: 'Archaeology Core Template',
     },
   }),
   template: template(configContext),
