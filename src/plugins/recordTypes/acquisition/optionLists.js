@@ -5,10 +5,11 @@ export default {
     values: [
       'bequest',
       'donation',
-      'foundInCollections',
+      'fieldCollected',
+      'foundInCollection',
+      'loan',
       'purchase',
       'staffCurated',
-      'staffCollected',
       'transfer',
     ],
     messages: defineMessages({
@@ -20,9 +21,17 @@ export default {
         id: 'option.acquisitionMethods.donation',
         defaultMessage: 'donation',
       },
-      foundInCollections: {
-        id: 'option.acquisitionMethods.foundInCollections',
-        defaultMessage: 'found in collections',
+      fieldCollected: {
+        id: 'option.acquisitionMethods.fieldCollected',
+        defaultMessage: 'field collected',
+      },
+      foundInCollection: {
+        id: 'option.acquisitionMethods.foundInCollection',
+        defaultMessage: 'found in collection',
+      },
+      loan: {
+        id: 'option.acquisitionMethods.loan',
+        defaultMessage: 'loan - TBD',
       },
       purchase: {
         id: 'option.acquisitionMethods.purchase',
@@ -31,10 +40,6 @@ export default {
       staffCurated: {
         id: 'option.acquisitionMethods.staffCurated',
         defaultMessage: 'staff curated',
-      },
-      staffCollected: {
-        id: 'option.acquisitionMethods.staffCollected',
-        defaultMessage: 'staff collected',
       },
       transfer: {
         id: 'option.acquisitionMethods.transfer',
