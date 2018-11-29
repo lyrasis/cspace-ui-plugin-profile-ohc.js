@@ -79,18 +79,6 @@ const template = (configContext) => {
 
         <Field name="acquisitionNote" />
         <Field name="acquisitionProvisos" />
-
-        <Row>
-          <Field name="acquisitionFundingList">
-            <Field name="acquisitionFunding">
-              <Field name="acquisitionFundingCurrency" />
-              <Field name="acquisitionFundingValue" />
-              <Field name="acquisitionFundingSource" />
-              <Field name="acquisitionFundingSourceProvisos" />
-            </Field>
-          </Field>
-        </Row>
-
         <Field name="creditLine" />
       </Panel>
 
