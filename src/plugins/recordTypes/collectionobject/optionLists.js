@@ -105,6 +105,7 @@ export default {
       'Gifford worked shell typology',
       'Heizer projectile point typology',
       'Justice projectile point typology',
+      'Local OHC',
       'Meighan historic glass bead typology',
       'Treganza clay artifact typology',
       'no system',
@@ -138,6 +139,10 @@ export default {
         id: 'option.nameSystems.Justice projectile point typology',
         defaultMessage: 'Justice projectile point typology',
       },
+      'Local OHC': {
+        id: 'option.nameSystems.Local OHC',
+        defaultMessage: 'Local OHC',
+      },
       'Meighan historic glass bead typology': {
         id: 'option.nameSystems.Meighan historic glass bead typology',
         defaultMessage: 'Meighan historic glass bead typology',
@@ -157,6 +162,8 @@ export default {
       'adult/mature',
       'subadult/immature',
       'egg',
+      'fetus',
+      'pupa',
       'larva',
       'seed',
       'indeterminate',
@@ -175,6 +182,14 @@ export default {
       egg: {
         id: 'option.phases.egg',
         defaultMessage: 'egg',
+      },
+      fetus: {
+        id: 'option.phases.fetus',
+        defaultMessage: 'fetus',
+      },
+      pupa: {
+        id: 'option.phases.pupa',
+        defaultMessage: 'pupa',
       },
       // larva message is already configured in cspace-ui.
       seed: {
@@ -620,10 +635,12 @@ export default {
     values: [
       'Additional File Number',
       'Archives/Library Negative Number',
+      'Barcode Number',
       'Field Sheet Number',
       'Fine Arts Card Number',
       'FIPS Number',
       'OAI Number',
+      'OHI Number',
       'OhioPix File Name',
       'Old Ledger #1',
       'Old Ledger #2',
@@ -644,6 +661,10 @@ export default {
         id: 'option.numberTypes.Archives/Library Negative Number',
         defaultMessage: 'Archives/Library Negative Number',
       },
+      'Barcode Number': {
+        id: 'option.numberTypes.Barcode Number',
+        defaultMessage: 'Barcode Number',
+      },
       'Field Sheet Number': {
         id: 'option.numberTypes.Field Sheet Number',
         defaultMessage: 'Field Sheet Number',
@@ -659,6 +680,10 @@ export default {
       'OAI Number': {
         id: 'option.numberTypes.OAI Number',
         defaultMessage: 'OAI Number',
+      },
+      'OHI Number': {
+        id: 'option.numberTypes.OHI Number',
+        defaultMessage: 'OHI Number',
       },
       'OhioPix File Name': {
         id: 'option.numberTypes.OhioPix File Name',
