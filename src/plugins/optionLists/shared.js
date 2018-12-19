@@ -9,15 +9,21 @@ export default () => ({
     departments: {
       values: [
         'archaeology',
+        'design',
         'education',
         'history',
         'natural-history',
+        'registrar',
       ],
       // I think department names are proper nouns? Capitalizing them.
       messages: defineMessages({
         archaeology: {
           id: 'option.departments.archaeology',
           defaultMessage: 'Archaeology',
+        },
+        design: {
+          id: 'option.departments.design',
+          defaultMessage: 'Design',
         },
         education: {
           id: 'option.departments.education',
@@ -30,6 +36,10 @@ export default () => ({
         'natural-history': {
           id: 'option.departments.natural-history',
           defaultMessage: 'Natural History',
+        },
+        registrar: {
+          id: 'option.departments.registrar',
+          defaultMessage: 'Registrar',
         },
       }),
     },
