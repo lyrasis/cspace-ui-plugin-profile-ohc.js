@@ -45,6 +45,7 @@ const template = (configContext) => {
             </Field>
 
             <Field name="collection" />
+            <Field name="namedCollection" subpath="ns2:collectionobjects_ohc" />
             <Field name="descriptionLevel" subpath="ns2:collectionobjects_ohc" />
             <Field name="recordStatus" />
           </Col>
@@ -62,6 +63,10 @@ const template = (configContext) => {
 
             <Field name="inventoryStatusList">
               <Field name="inventoryStatus" />
+            </Field>
+
+            <Field name="comments">
+              <Field name="comment" />
             </Field>
           </Col>
         </Row>
@@ -100,6 +105,40 @@ const template = (configContext) => {
         {extensions.annotation.collectionobject.form}
         {extensions.dimension.form}
 
+        <Field name="materialGroupList">
+          <Field name="materialGroup">
+            <Field name="material" />
+            <Field name="materialComponent" />
+            <Field name="materialComponentNote" />
+            <Field name="materialName" />
+            <Field name="materialSource" />
+          </Field>
+        </Field>
+
+        <Field name="titleGroupList">
+          <Field name="titleGroup">
+            <Panel>
+              <Row>
+                <Col>
+                  <Field name="title" />
+                  <Field name="titleLanguage" />
+                </Col>
+
+                <Col>
+                  <Field name="titleType" />
+
+                  <Field name="titleTranslationSubGroupList">
+                    <Field name="titleTranslationSubGroup">
+                      <Field name="titleTranslation" />
+                      <Field name="titleTranslationLanguage" />
+                    </Field>
+                  </Field>
+                </Col>
+              </Row>
+            </Panel>
+          </Field>
+        </Field>
+
       </Panel>
 
       <Panel name="collect" collapsible collapsed>
@@ -136,6 +175,15 @@ const template = (configContext) => {
 
       <Panel name="prod" collapsible collapsed>
         <Row>
+          <Col>
+            <Field name="objectProductionDateGroupList">
+              <Field name="objectProductionDateGroup" />
+            </Field>
+
+            <Field name="namedTimePeriods" subpath="ns2:collectionobjects_ohc">
+              <Field name="namedTimePeriod" />
+            </Field>
+          </Col>
           <Col>
             <Field name="objectProductionPeopleGroupList">
               <Field name="objectProductionPeopleGroup">
@@ -239,6 +287,15 @@ const template = (configContext) => {
         <CompoundInput subpath="ns2:collectionobjects_anthro">
           {extensions.locality.form}
         </CompoundInput>
+      </Panel>
+
+      <Panel name="reference" collapsible collapsed>
+        <Field name="referenceGroupList">
+          <Field name="referenceGroup">
+            <Field name="reference" />
+            <Field name="referenceNote" />
+          </Field>
+        </Field>
       </Panel>
 
       <Panel name="hierarchy" collapsible collapsed>
