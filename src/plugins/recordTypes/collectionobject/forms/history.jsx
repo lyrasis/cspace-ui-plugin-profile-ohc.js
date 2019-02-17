@@ -57,6 +57,10 @@ const template = (configContext) => {
             <Field name="inventoryStatusList">
               <Field name="inventoryStatus" />
             </Field>
+
+            <Field name="comments">
+              <Field name="comment" />
+            </Field>
           </Col>
         </Row>
 
@@ -124,13 +128,6 @@ const template = (configContext) => {
               <Field name="objectProductionDateGroup" />
             </Field>
 
-            <Field name="techniqueGroupList">
-              <Field name="techniqueGroup">
-                <Field name="technique" />
-                <Field name="techniqueType" />
-              </Field>
-            </Field>
-
             <Field name="objectProductionPlaceGroupList">
               <Field name="objectProductionPlaceGroup" >
                 <Field name="objectProductionPlace" />
@@ -188,11 +185,13 @@ const template = (configContext) => {
         <Panel name="content" collapsible collapsed>
           <Row>
             <Col>
+              <Field name="contentConcepts">
+                <Field name="contentConcept" />
+              </Field>
+            </Col>
+            <Col>
               <Field name="contentDateGroup" />
 
-              <Field name="contentPositions">
-                <Field name="contentPosition" />
-              </Field>
             </Col>
           </Row>
         </Panel>
@@ -209,6 +208,15 @@ const template = (configContext) => {
             <Field name="anthroOwnershipPlace" />
             <Field name="anthroOwnershipMethod" />
             <Field name="anthroOwnershipNote" />
+          </Field>
+        </Field>
+      </Panel>
+
+      <Panel name="reference" collapsible collapsed>
+        <Field name="referenceGroupList">
+          <Field name="referenceGroup">
+            <Field name="reference" />
+            <Field name="referenceNote" />
           </Field>
         </Field>
       </Panel>

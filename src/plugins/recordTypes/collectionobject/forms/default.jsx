@@ -43,8 +43,10 @@ const template = (configContext) => {
             </Field>
 
             <Field name="collection" />
+            <Field name="namedCollection" subpath="ns2:collectionobjects_ohc" />
             <Field name="descriptionLevel" subpath="ns2:collectionobjects_ohc" />
             <Field name="recordStatus" />
+
           </Col>
 
           <Col>
@@ -189,6 +191,10 @@ const template = (configContext) => {
               <Field name="objectProductionDateGroup" />
             </Field>
 
+            <Field name="namedTimePeriods" subpath="ns2:collectionobjects_ohc">
+              <Field name="namedTimePeriod" />
+            </Field>
+
             <Field name="techniqueGroupList">
               <Field name="techniqueGroup">
                 <Field name="technique" />
@@ -283,6 +289,7 @@ const template = (configContext) => {
                 <Field name="sex" />
                 <Field name="phase" />
               </Row>
+              <Field name="majorTaxon" subpath="ns2:collectionobjects_ohc" />
             </Col>
 
             <Col>

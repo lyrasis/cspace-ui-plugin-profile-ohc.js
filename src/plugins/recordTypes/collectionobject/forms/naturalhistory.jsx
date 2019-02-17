@@ -59,6 +59,10 @@ const template = (configContext) => {
             <Field name="inventoryStatusList">
               <Field name="inventoryStatus" />
             </Field>
+
+            <Field name="comments">
+              <Field name="comment" />
+            </Field>
           </Col>
         </Row>
 
@@ -147,6 +151,7 @@ const template = (configContext) => {
                 <Field name="sex" />
                 <Field name="phase" />
               </Row>
+              <Field name="majorTaxon" subpath="ns2:collectionobjects_ohc" />
             </Col>
 
             <Col>
@@ -169,6 +174,15 @@ const template = (configContext) => {
           </Row>
         </Panel>
 
+      </Panel>
+
+      <Panel name="reference" collapsible collapsed>
+        <Field name="referenceGroupList">
+          <Field name="referenceGroup">
+            <Field name="reference" />
+            <Field name="referenceNote" />
+          </Field>
+        </Field>
       </Panel>
 
       <Panel name="hierarchy" collapsible collapsed>
