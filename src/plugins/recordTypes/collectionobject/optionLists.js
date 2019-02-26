@@ -336,29 +336,55 @@ export default {
       },
     }),
   },
-  collections: {
+  titleTypes: {
     values: [
-      'library-collection',
-      'permanent-collection',
-      'study-collection',
-      'teaching-collection',
+      'assigned-by-artist',
+      'collection',
+      'book-title',
+      'site',
     ],
     messages: defineMessages({
-      'library-collection': {
-        id: 'option.collections.library-collection',
-        defaultMessage: 'library collection',
+      'assigned-by-artist': {
+        id: 'option.titleTypes.assigned-by-artist',
+        defaultMessage: 'assigned by artist',
       },
+      collection: {
+        id: 'option.titleTypes.collection',
+        defaultMessage: 'collection',
+      },
+      'book-title': {
+        id: 'option.titleTypes.book-title',
+        defaultMessage: 'book title',
+      },
+      site: {
+        id: 'option.titleTypes.site',
+        defaultMessage: 'site',
+      },
+    }),
+  },
+  collections: {
+    values: [
+      'permanent-collection',
+      'education-collection',
+      'props-and-design',
+      'sites-and-facilities',
+    ],
+    messages: defineMessages({
       'permanent-collection': {
         id: 'option.collections.permanent-collection',
         defaultMessage: 'permanent collection',
       },
-      'study-collection': {
-        id: 'option.collections.study-collection',
-        defaultMessage: 'study collection',
+      'education-collection': {
+        id: 'option.collections.education-collection',
+        defaultMessage: 'education collection',
       },
-      'teaching-collection': {
-        id: 'option.collections.teaching-collection',
-        defaultMessage: 'teaching collection',
+      'props-and-design': {
+        id: 'option.collections.props-and-design',
+        defaultMessage: 'props and design',
+      },
+      'sites-and-facilities': {
+        id: 'option.collections.sites-and-facilities',
+        defaultMessage: 'sites-and-facilities',
       },
     }),
   },
