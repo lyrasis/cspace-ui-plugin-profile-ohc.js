@@ -14,6 +14,7 @@ export default () => ({
         'history',
         'natural-history',
         'registrar',
+        'sites',
       ],
       // I think department names are proper nouns? Capitalizing them.
       messages: defineMessages({
@@ -40,6 +41,10 @@ export default () => ({
         registrar: {
           id: 'option.departments.registrar',
           defaultMessage: 'Registrar',
+        },
+        sites: {
+          id: 'option.departments.sites',
+          defaultMessage: 'Sites',
         },
       }),
     },

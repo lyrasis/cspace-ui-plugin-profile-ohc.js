@@ -4,9 +4,11 @@ export default {
   acquisitionMethods: {
     values: [
       'bequest',
+      'curationAgreement',
       'donation',
       'fieldCollected',
       'foundInCollection',
+      'gift',
       'loan',
       'purchase',
       'staffCurated',
