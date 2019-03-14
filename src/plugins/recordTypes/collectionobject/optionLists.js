@@ -3,22 +3,18 @@ import { defineMessages } from 'react-intl';
 export default {
   forms: {
     values: [
-      'bagged',
-      'bottled',
-      'boxed',
-      'in can or tin',
       'dried fungus',
-      'in drum',
-      'dry',
       'egg',
       'envelope',
+      'feather',
       'feathers',
-      'ground',
+      'fossil',
+      'fossil tracks',
       'hair',
+      'herbarium sheet',
       'liquid preservation',
       'live mount',
       'mineral',
-      'mounted',
       'nest',
       'ore',
       'pellet',
@@ -32,38 +28,13 @@ export default {
       'slide',
       'study skin',
       'tanned hide',
-      'thin section',
-      'wet',
-      'wood',
-      'wrapped',
-      'unknown',
+      'wood sample',
     ],
     messages: defineMessages({
-      bagged: {
-        id: 'option.forms.bagged',
-        defaultMessage: 'bagged',
-      },
-      bottled: {
-        id: 'option.forms.bottled',
-        defaultMessage: 'bottled',
-      },
-      boxed: {
-        id: 'option.forms.boxed',
-        defaultMessage: 'boxed',
-      },
-      'in can or tin': {
-        id: 'option.forms.in can or tin',
-        defaultMessage: 'in can or tin',
-      },
       'dried fungus': {
         id: 'option.forms.dried fungus',
         defaultMessage: 'dried fungus',
       },
-      'in drum': {
-        id: 'option.forms.in drum',
-        defaultMessage: 'in drum',
-      },
-      // dry message is already configured in cspace-ui.
       egg: {
         id: 'option.forms.egg',
         defaultMessage: 'egg',
@@ -71,6 +42,10 @@ export default {
       envelope: {
         id: 'option.forms.envelope',
         defaultMessage: 'envelope',
+      },
+      feather: {
+        id: 'option.forms.feather',
+        defaultMessage: 'feather',
       },
       feathers: {
         id: 'option.forms.feathers',
@@ -80,13 +55,21 @@ export default {
         id: 'option.forms.fossil',
         defaultMessage: 'fossil',
       },
-      ground: {
-        id: 'option.forms.ground',
-        defaultMessage: 'ground',
+      'fossil tracks': {
+        id: 'option.forms.fossil tracks',
+        defaultMessage: 'fossil tracks',
       },
       hair: {
         id: 'option.forms.hair',
         defaultMessage: 'hair',
+      },
+      'herbarium sheet': {
+        id: 'option.forms.herbarium sheet',
+        defaultMessage: 'herbarium sheet',
+      },
+      'liquid preservation': {
+        id: 'option.forms.liquid preservation',
+        defaultMessage: 'liquid preservation',
       },
       'live mount': {
         id: 'option.forms.live mount',
@@ -95,10 +78,6 @@ export default {
       mineral: {
         id: 'option.forms.mineral',
         defaultMessage: 'mineral',
-      },
-      mounted: {
-        id: 'option.forms.mounted',
-        defaultMessage: 'mounted',
       },
       nest: {
         id: 'option.forms.nest',
@@ -149,22 +128,9 @@ export default {
         id: 'option.forms.tanned hide',
         defaultMessage: 'tanned hide',
       },
-      'thin section': {
-        id: 'option.forms.thin section',
-        defaultMessage: 'thin section',
-      },
-      // wet message is already configured in cspace-ui.
-      wood: {
-        id: 'option.forms.wood',
-        defaultMessage: 'wood',
-      },
-      wrapped: {
-        id: 'option.forms.wrapped',
-        defaultMessage: 'wrapped',
-      },
-      unknown: {
-        id: 'option.forms.unknown',
-        defaultMessage: 'unknown',
+      'wood sample': {
+        id: 'option.forms.wood sample',
+        defaultMessage: 'wood sample',
       },
     }),
   },
