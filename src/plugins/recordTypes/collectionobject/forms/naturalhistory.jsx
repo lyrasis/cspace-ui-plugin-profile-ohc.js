@@ -6,6 +6,10 @@ const template = (configContext) => {
   } = configContext.lib;
 
   const {
+    CompoundInput,
+  } = configContext.inputComponents;
+
+  const {
     Col,
     Cols,
     Panel,
