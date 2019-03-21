@@ -66,18 +66,6 @@ const template = (configContext) => {
           </Col>
         </Row>
 
-        <Field name="objectNameList">
-          <Field name="objectNameGroup">
-            <Field name="objectName" />
-            <Field name="objectNameCurrency" />
-            <Field name="objectNameLevel" />
-            <Field name="objectNameSystem" />
-            <Field name="objectNameType" />
-            <Field name="objectNameLanguage" />
-            <Field name="objectNameNote" />
-          </Field>
-        </Field>
-
         {extensions.annotation.collectionobject.form}
         {extensions.dimension.form}
 
@@ -174,6 +162,12 @@ const template = (configContext) => {
           </Row>
         </Panel>
 
+      </Panel>
+
+      <Panel name="locality" collapsible collapsed>
+        <CompoundInput subpath="ns2:collectionobjects_anthro">
+          {extensions.locality.form}
+        </CompoundInput>
       </Panel>
 
       <Panel name="reference" collapsible collapsed>
