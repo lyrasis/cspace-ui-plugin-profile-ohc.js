@@ -18,7 +18,6 @@ const template = (configContext) => {
 
   const {
     Field,
-    InputTable,
   } = configContext.recordComponents;
 
   const {
