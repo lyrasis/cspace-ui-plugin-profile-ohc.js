@@ -1,11 +1,5 @@
 import optionLists from './optionLists';
-import forms from './forms';
 
-export default () => configContext => ({
+export default () => ({
   optionLists,
-  recordTypes: {
-    intake: {
-      forms: forms(configContext),
-    },
-  },
 });

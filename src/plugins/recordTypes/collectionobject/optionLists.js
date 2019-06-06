@@ -360,6 +360,7 @@ export default {
       'in-process',
       'new',
       'ready-for-review',
+      'revision-needed',
       'temporary',
     ],
     messages: defineMessages({
@@ -378,6 +379,10 @@ export default {
       'ready-for-review': {
         id: 'option.recordStatuses.ready-for-review',
         defaultMessage: 'ready for review',
+      },
+      'revision-needed': {
+        id: 'option.recordStatuses.revision-needed',
+        defaultMessage: 'revision needed',
       },
       temporary: {
         id: 'option.recordStatuses.temporary',

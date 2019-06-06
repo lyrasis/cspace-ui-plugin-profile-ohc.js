@@ -71,8 +71,60 @@ const template = (configContext) => {
           </Col>
         </Row>
 
+        <Field name="categoryGroupList" subpath="ns2:collectionobjects_ohc">
+          <Field name="categoryGroup">
+            <Field name="category" />
+            <Field name="subCategory" />
+          </Field>
+        </Field>
+
+        <Cols>
+          <Col>
+            <Field name="assocPeopleGroupList">
+              <Field name="assocPeopleGroup">
+                <Field name="assocPeople" />
+                <Field name="assocPeopleType" />
+                <Field name="assocPeopleNote" />
+              </Field>
+            </Field>
+          </Col>
+        </Cols>
+
         {extensions.annotation.collectionobject.form}
-        {extensions.dimension.form}
+
+        <Field name="materialGroupList">
+          <Field name="materialGroup">
+            <Field name="material" />
+            <Field name="materialComponent" />
+            <Field name="materialComponentNote" />
+            <Field name="materialName" />
+            <Field name="materialSource" />
+          </Field>
+        </Field>
+
+        <Field name="titleGroupList">
+          <Field name="titleGroup">
+            <Panel>
+              <Row>
+                <Col>
+                  <Field name="title" />
+                  <Field name="titleLanguage" />
+                </Col>
+
+                <Col>
+                  <Field name="titleType" />
+
+                  <Field name="titleTranslationSubGroupList">
+                    <Field name="titleTranslationSubGroup">
+                      <Field name="titleTranslation" />
+                      <Field name="titleTranslationLanguage" />
+                    </Field>
+                  </Field>
+                </Col>
+              </Row>
+            </Panel>
+          </Field>
+        </Field>
 
       </Panel>
 
@@ -111,6 +163,22 @@ const template = (configContext) => {
       <Panel name="prod" collapsible collapsed>
         <Row>
           <Col>
+            <Field name="objectProductionDateGroupList">
+              <Field name="objectProductionDateGroup" />
+            </Field>
+
+            <Field name="namedTimePeriods" subpath="ns2:collectionobjects_ohc">
+              <Field name="namedTimePeriod" />
+            </Field>
+          </Col>
+          <Col>
+            <Field name="objectProductionPeopleGroupList">
+              <Field name="objectProductionPeopleGroup">
+                <Field name="objectProductionPeople" />
+                <Field name="objectProductionPeopleRole" />
+              </Field>
+            </Field>
+
             <Field name="objectProductionPersonGroupList">
               <Field name="objectProductionPersonGroup">
                 <Field name="objectProductionPerson" />
@@ -128,45 +196,38 @@ const template = (configContext) => {
         </Row>
       </Panel>
 
+      {extensions.nagpra.collectionobject.form}
+      {extensions.culturalcare.collectionobject.form}
+
       <Panel name="desc" collapsible collapsed>
-        <Row>
-          <Col>
-            <Field name="forms">
-              <Field name="form" />
-            </Field>
-          </Col>
-        </Row>
-
-        <Panel name="bio" collapsible collapsed>
-          <Cols>
-            <Col>
-              <Row>
-                <Field name="sex" />
-                <Field name="phase" />
-              </Row>
-              <Field name="majorTaxon" subpath="ns2:collectionobjects_ohc" />
-            </Col>
-
-            <Col>
-              <InputTable name="age">
-                <Field name="ageQualifier" />
-                <Field name="age" />
-                <Field name="ageUnit" />
-              </InputTable>
-            </Col>
-          </Cols>
-
-          {extensions.naturalhistory.collectionobject.form.taxonomicIdentGroupList}
-        </Panel>
 
         <Panel name="content" collapsible collapsed>
           <Row>
             <Col>
+              <Field name="contentConcepts">
+                <Field name="contentConcept" />
+              </Field>
+
               <Field name="contentDateGroup" />
             </Col>
           </Row>
         </Panel>
+      </Panel>
 
+      <Panel name="hist" collapsible collapsed>
+
+        <Field name="objectHistoryNote" />
+
+
+        <Field name="anthroOwnershipGroupList" subpath="ns2:collectionobjects_anthro">
+          <Field name="anthroOwnershipGroup">
+            <Field name="anthroOwner" />
+            <Field name="anthroOwnershipDateGroup" />
+            <Field name="anthroOwnershipCategory" />
+            <Field name="anthroOwnershipPlace" />
+            <Field name="anthroOwnershipNote" />
+          </Field>
+        </Field>
       </Panel>
 
       <Panel name="locality" collapsible collapsed>
@@ -194,8 +255,8 @@ const template = (configContext) => {
 export default configContext => ({
   messages: defineMessages({
     name: {
-      id: 'form.collectionobject.naturalhistory.name',
-      defaultMessage: 'Natural History Core Template',
+      id: 'form.collectionobject.archeology.name',
+      defaultMessage: 'Archaeology Parent Template',
     },
   }),
   template: template(configContext),

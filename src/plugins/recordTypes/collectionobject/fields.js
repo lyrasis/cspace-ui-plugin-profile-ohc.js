@@ -75,6 +75,23 @@ export default (configContext) => {
             },
           },
         },
+        fieldCollectionPlace: {
+          [config]: {
+            messages: defineMessages({
+              name: {
+                id: 'field.collectionobjects_common.fieldCollectionPlace.name',
+                defaultMessage: 'OAI Site',
+              },
+            }),
+            repeating: true,
+            view: {
+              type: AutocompleteInput,
+              props: {
+                source: 'place/local,place/shared,place/tgn',
+              },
+            },
+          },
+        },
         materialGroupList: {
           [config]: {
             view: {
@@ -416,9 +433,10 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.collectionobjects_anthro.fieldLocVerbatim.name',
-                defaultMessage: 'Field collection place (verbatim)',
+                defaultMessage: 'OAI collection site (verbatim)',
               },
             }),
+            repeating: true,
             view: {
               type: TextInput,
             },
