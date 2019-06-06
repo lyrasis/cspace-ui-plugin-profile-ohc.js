@@ -30,6 +30,10 @@ export default (configContext) => {
         path: 'ns2:collectionobjects_common/recordStatus',
       },
       {
+        op: OP_EQ,
+        path: 'ns2:collectionobjects_ohc/descriptionLevel',
+      },
+      {
         op: OP_CONTAIN,
         path: 'ns2:collectionobjects_common/objectNameList/objectNameGroup/objectName',
       },

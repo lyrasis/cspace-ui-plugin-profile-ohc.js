@@ -115,30 +115,6 @@ const template = (configContext) => {
           </Field>
         </Field>
 
-        <Field name="titleGroupList">
-          <Field name="titleGroup">
-            <Panel>
-              <Row>
-                <Col>
-                  <Field name="title" />
-                  <Field name="titleLanguage" />
-                </Col>
-
-                <Col>
-                  <Field name="titleType" />
-
-                  <Field name="titleTranslationSubGroupList">
-                    <Field name="titleTranslationSubGroup">
-                      <Field name="titleTranslation" />
-                      <Field name="titleTranslationLanguage" />
-                    </Field>
-                  </Field>
-                </Col>
-              </Row>
-            </Panel>
-          </Field>
-        </Field>
-
       </Panel>
 
       <Panel name="collect" collapsible collapsed>
@@ -232,45 +208,33 @@ const template = (configContext) => {
             </Col>
           </Row>
         </Panel>
+
+        <Panel name="bio" collapsible collapsed>
+          <Cols>
+            <Col>
+              <Row>
+                <Field name="sex" />
+                <Field name="phase" />
+              </Row>
+              <Field name="majorTaxon" subpath="ns2:collectionobjects_ohc" />
+            </Col>
+
+            <Col>
+              <InputTable name="age">
+                <Field name="ageQualifier" />
+                <Field name="age" />
+                <Field name="ageUnit" />
+              </InputTable>
+            </Col>
+          </Cols>
+
+          {extensions.naturalhistory.collectionobject.form.taxonomicIdentGroupList}
+        </Panel>
       </Panel>
 
       <Panel name="hist" collapsible collapsed>
-        <Panel name="assoc" collapsible collapsed>
-          <Row>
-            <Col>
-              <InputTable name="assocEvent">
-                <Field name="assocEventName" />
-                <Field name="assocEventNameType" />
-              </InputTable>
 
-              <Field name="assocEventOrganizations">
-                <Field name="assocEventOrganization" />
-              </Field>
-
-              <Field name="assocEventPeoples">
-                <Field name="assocEventPeople" />
-              </Field>
-
-              <Field name="assocEventPersons">
-                <Field name="assocEventPerson" />
-              </Field>
-
-              <Field name="assocEventPlaces">
-                <Field name="assocEventPlace" />
-              </Field>
-
-              <Field name="assocEventNote" />
-
-              <Field name="assocDateGroupList">
-                <Field name="assocDateGroup">
-                  <Field name="assocStructuredDateGroup" />
-                  <Field name="assocDateType" />
-                  <Field name="assocDateNote" />
-                </Field>
-              </Field>
-            </Col>
-          </Row>
-        </Panel>
+        <Field name="objectHistoryNote" />
 
         <Field name="anthroOwnershipGroupList" subpath="ns2:collectionobjects_anthro">
           <Field name="anthroOwnershipGroup">
@@ -309,7 +273,7 @@ export default configContext => ({
   messages: defineMessages({
     name: {
       id: 'form.collectionobject.archeology.name',
-      defaultMessage: 'Archaeology Core Template',
+      defaultMessage: 'Archaeology Child Template',
     },
   }),
   template: template(configContext),
