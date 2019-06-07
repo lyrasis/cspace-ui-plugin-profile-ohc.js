@@ -75,23 +75,6 @@ export default (configContext) => {
             },
           },
         },
-        fieldCollectionPlace: {
-          [config]: {
-            messages: defineMessages({
-              name: {
-                id: 'field.collectionobjects_common.fieldCollectionPlace.name',
-                defaultMessage: 'OAI Site',
-              },
-            }),
-            repeating: true,
-            view: {
-              type: AutocompleteInput,
-              props: {
-                source: 'place/local,place/shared,place/tgn',
-              },
-            },
-          },
-        },
         materialGroupList: {
           [config]: {
             view: {
@@ -433,10 +416,9 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.collectionobjects_anthro.fieldLocVerbatim.name',
-                defaultMessage: 'OAI collection site (verbatim)',
+                defaultMessage: 'Field collection place (verbatim)',
               },
             }),
-            repeating: true,
             view: {
               type: TextInput,
             },
@@ -597,6 +579,59 @@ export default (configContext) => {
                 type: TermPickerInput,
                 props: {
                   source: 'namedtimeperiods',
+                },
+              },
+            },
+          },
+        },
+        oaiSiteGroupList: {
+          [config]: {
+            view: {
+              type: CompoundInput,
+            },
+          },
+          oaiSiteGroup: {
+            [config]: {
+              messages: defineMessages({
+                name: {
+                  id: 'field.collectionobjects_ohc.oaiSiteGroup.name',
+                  defaultMessage: 'OAI Site Information',
+                },
+              }),
+              repeating: true,
+              view: {
+                type: CompoundInput,
+                props: {
+                  tabular: true,
+                },
+              },
+            },
+            oaiCollectionPlace: {
+              [config]: {
+                messages: defineMessages({
+                  name: {
+                    id: 'field.collectionobjects_ohc.oaiCollectionPlace.name',
+                    defaultMessage: 'OAI Site',
+                  },
+                }),
+                view: {
+                  type: AutocompleteInput,
+                  props: {
+                    source: 'place/local,place/shared,place/tgn',
+                  },
+                },
+              },
+            },
+            oaiLocVerbatim: {
+              [config]: {
+                messages: defineMessages({
+                  name: {
+                    id: 'field.collectionobjects_ohc.oaiLocVerbatim.name',
+                    defaultMessage: 'OAI collection site (verbatim)',
+                  },
+                }),
+                view: {
+                  type: TextInput,
                 },
               },
             },

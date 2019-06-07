@@ -364,18 +364,6 @@ export default {
       'temporary',
     ],
     messages: defineMessages({
-      approved: {
-        id: 'option.recordStatuses.approved',
-        defaultMessage: 'approved',
-      },
-      'in-process': {
-        id: 'option.recordStatuses.in-process',
-        defaultMessage: 'in process',
-      },
-      new: {
-        id: 'option.recordStatuses.new',
-        defaultMessage: 'new',
-      },
       'ready-for-review': {
         id: 'option.recordStatuses.ready-for-review',
         defaultMessage: 'ready for review',
@@ -383,10 +371,6 @@ export default {
       'revision-needed': {
         id: 'option.recordStatuses.revision-needed',
         defaultMessage: 'revision needed',
-      },
-      temporary: {
-        id: 'option.recordStatuses.temporary',
-        defaultMessage: 'temporary',
       },
     }),
   },
