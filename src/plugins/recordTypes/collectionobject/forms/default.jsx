@@ -155,6 +155,16 @@ const template = (configContext) => {
       <Panel name="collect" collapsible collapsed>
         <Row>
           <Col>
+            <Field name="oaiSiteGroupList" subpath="ns2:collectionobjects_ohc">
+              <Field name="oaiSiteGroup">
+                <Field name="oaiCollectionPlace" />
+                <Field name="oaiLocVerbatim" />
+              </Field>
+            </Field>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
             <Field name="fieldCollectionDateGroup" />
 
             <Field name="fieldCollectionMethods">
