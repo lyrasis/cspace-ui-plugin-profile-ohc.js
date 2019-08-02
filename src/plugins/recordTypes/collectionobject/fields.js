@@ -183,6 +183,20 @@ export default (configContext) => {
             },
           },
         },
+        assocPeopleGroupList: {
+          assocPeopleGroup: {
+            assocPeople: {
+              [config]: {
+                view: {
+                  type: AutocompleteInput,
+                  props: {
+                    source: 'concept/ethculture',
+                  },
+                },
+              },
+            },
+          },
+        },
       },
       'ns2:collectionobjects_anthro': {
         [config]: {
