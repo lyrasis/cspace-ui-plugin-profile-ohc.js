@@ -17,7 +17,10 @@ export default (configContext) => {
         op: OP_CONTAIN,
         path: 'ns2:collectionobjects_common/objectNumber',
       },
-
+      {
+        op: OP_EQ,
+        path: 'ns2:collectionobjects_common/otherNumberList/otherNumber/numberType',
+      },
       {
         op: OP_EQ,
         path: 'ns2:collectionobjects_common/responsibleDepartments/responsibleDepartment',
