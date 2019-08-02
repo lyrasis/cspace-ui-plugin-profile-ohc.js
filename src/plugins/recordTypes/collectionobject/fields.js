@@ -26,27 +26,7 @@ export default (configContext) => {
     document: {
       'ns2:collectionobjects_common': {
         objectNameList: {
-          [config]: {
-            view: {
-              type: CompoundInput,
-            },
-          },
           objectNameGroup: {
-            [config]: {
-              messages: defineMessages({
-                name: {
-                  id: 'field.collectionobjects_common.objectNameGroup.name',
-                  defaultMessage: 'Object name',
-                },
-              }),
-              repeating: true,
-              view: {
-                type: CompoundInput,
-                props: {
-                  tabular: true,
-                },
-              },
-            },
             objectName: {
               [config]: {
                 view: {
@@ -59,14 +39,7 @@ export default (configContext) => {
             },
             objectNameLevel: {
               [config]: {
-                messages: defineMessages({
-                  name: {
-                    id: 'field.collectionobjects_common.objectNameLevel.name',
-                    defaultMessage: 'Level',
-                  },
-                }),
                 view: {
-                  type: OptionPickerInput,
                   props: {
                     source: 'ohcNameLevels',
                   },
@@ -76,108 +49,14 @@ export default (configContext) => {
           },
         },
         materialGroupList: {
-          [config]: {
-            view: {
-              type: CompoundInput,
-            },
-          },
           materialGroup: {
-            [config]: {
-              messages: defineMessages({
-                name: {
-                  id: 'field.collectionobjects_common.materialGroup.name',
-                  defaultMessage: 'Material',
-                },
-              }),
-              repeating: true,
-              view: {
-                type: CompoundInput,
-                props: {
-                  tabular: true,
-                },
-              },
-            },
             material: {
               [config]: {
-                messages: defineMessages({
-                  name: {
-                    id: 'field.collectionobjects_common.material.name',
-                    defaultMessage: 'Material',
-                  },
-                }),
                 view: {
                   type: AutocompleteInput,
                   props: {
                     source: 'concept/material',
                   },
-                },
-              },
-            },
-            materialComponent: {
-              [config]: {
-                messages: defineMessages({
-                  fullName: {
-                    id: 'field.collectionobjects_common.materialComponent.fullName',
-                    defaultMessage: 'Material component',
-                  },
-                  name: {
-                    id: 'field.collectionobjects_common.materialComponent.name',
-                    defaultMessage: 'Component',
-                  },
-                }),
-                view: {
-                  type: TextInput,
-                },
-              },
-            },
-            materialComponentNote: {
-              [config]: {
-                messages: defineMessages({
-                  fullName: {
-                    id: 'field.collectionobjects_common.materialComponentNote.fullName',
-                    defaultMessage: 'Material component note',
-                  },
-                  name: {
-                    id: 'field.collectionobjects_common.materialComponentNote.name',
-                    defaultMessage: 'Component note',
-                  },
-                }),
-                view: {
-                  type: TextInput,
-                },
-              },
-            },
-            materialName: {
-              [config]: {
-                messages: defineMessages({
-                  fullName: {
-                    id: 'field.collectionobjects_common.materialName.fullName',
-                    defaultMessage: 'Material name',
-                  },
-                  name: {
-                    id: 'field.collectionobjects_common.materialName.name',
-                    defaultMessage: 'Name',
-                  },
-                }),
-                view: {
-                  type: TextInput,
-                },
-              },
-            },
-            materialSource: {
-              [config]: {
-                messages: defineMessages({
-                  fullName: {
-                    id: 'field.collectionobjects_common.materialSource.fullName',
-                    defaultMessage: 'Material source',
-                  },
-                  name: {
-                    id: 'field.collectionobjects_common.materialSource.name',
-                    defaultMessage: 'Source',
-                  },
-                }),
-                view: {
-                  type: TextInput,
                 },
               },
             },
