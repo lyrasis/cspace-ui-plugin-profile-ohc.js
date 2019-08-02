@@ -17,6 +17,7 @@ export default (configContext) => {
         op: OP_CONTAIN,
         path: 'ns2:collectionobjects_common/objectNumber',
       },
+
       {
         op: OP_EQ,
         path: 'ns2:collectionobjects_common/responsibleDepartments/responsibleDepartment',
@@ -34,19 +35,19 @@ export default (configContext) => {
         path: 'ns2:collectionobjects_ohc/descriptionLevel',
       },
       {
-        op: OP_CONTAIN,
+        op: OP_EQ,
         path: 'ns2:collectionobjects_common/objectNameList/objectNameGroup/objectName',
       },
       {
-        op: OP_CONTAIN,
+        op: OP_EQ,
         path: 'ns2:collectionobjects_ohc/categoryGroupList/categoryGroup/category',
       },
       {
-        op: OP_CONTAIN,
+        op: OP_EQ,
         path: 'ns2:collectionobjects_ohc/categoryGroupList/categoryGroup/subCategory',
       },
       {
-        op: OP_CONTAIN,
+        op: OP_EQ,
         path: 'ns2:collectionobjects_common/materialGroupList/materialGroup/material',
       },
       {
@@ -66,11 +67,11 @@ export default (configContext) => {
         path: 'ns2:collectionobjects_common/techniqueGroupList/techniqueGroup/technique',
       },
       {
-        op: OP_CONTAIN,
+        op: OP_EQ,
         path: 'ns2:collectionobjects_common/objectProductionPlaceGroupList/objectProductionPlaceGroup/objectProductionPlace',
       },
       {
-        op: OP_CONTAIN,
+        op: OP_EQ,
         path: 'ns2:collectionobjects_common/objectProductionPeopleGroupList/objectProductionPeopleGroup/objectProductionPeople',
       },
       {
