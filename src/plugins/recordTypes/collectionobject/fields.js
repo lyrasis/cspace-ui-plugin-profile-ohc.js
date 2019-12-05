@@ -188,7 +188,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.collectionobjects_ohc.apparelSize.name',
-                  defaultMessage: 'Apparel sizes',
+                  defaultMessage: 'Apparel size',
                 },
               }),
               repeating: true,
@@ -212,7 +212,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.collectionobjects_ohc.namedTimePeriod.name',
-                  defaultMessage: 'Named Time Periods',
+                  defaultMessage: 'Named time period',
                 },
               }),
               repeating: true,
@@ -236,7 +236,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.collectionobjects_ohc.oaiSiteGroup.name',
-                  defaultMessage: 'OAI Site Information',
+                  defaultMessage: 'OAI site',
                 },
               }),
               repeating: true,
@@ -250,9 +250,13 @@ export default (configContext) => {
             oaiCollectionPlace: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.collectionobjects_ohc.oaiCollectionPlace.fullName',
+                    defaultMessage: 'OAI site',
+                  },
                   name: {
                     id: 'field.collectionobjects_ohc.oaiCollectionPlace.name',
-                    defaultMessage: 'OAI Site',
+                    defaultMessage: 'Site',
                   },
                 }),
                 view: {
@@ -266,9 +270,13 @@ export default (configContext) => {
             oaiLocVerbatim: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.collectionobjects_ohc.oaiLocVerbatim.fullName',
+                    defaultMessage: 'OAI collection site (verbatim)',
+                  },
                   name: {
                     id: 'field.collectionobjects_ohc.oaiLocVerbatim.name',
-                    defaultMessage: 'OAI collection site (verbatim)',
+                    defaultMessage: 'Collection site (verbatim)',
                   },
                 }),
                 view: {
