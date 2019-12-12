@@ -62,6 +62,18 @@ export default (configContext) => {
             },
           },
         },
+        contentConcepts: {
+          contentConcept: {
+            [config]: {
+              view: {
+                type: AutocompleteInput,
+                props: {
+                  source: 'concept/associated',
+                },
+              },
+            },
+          },
+        },
         assocPeopleGroupList: {
           assocPeopleGroup: {
             assocPeople: {

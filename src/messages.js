@@ -48,4 +48,7 @@ export default {
   'field.acquisitions_common.acquisitionProvisos.name': 'Restrictions',
   'field.intakes_common.packingNote.name': 'Rationale',
   'field.collectionobjects_common.physicalDescription.name': 'Lettered parts',
+  'field.objectexit_common.exitNote.name': 'Exit rationale',
+  'field.objectexit_common.packingNote.name': 'Additional notes',
+  'field.acquisitions_common.acquisitionReferenceNumber.name': 'Accession number',
 };

@@ -332,8 +332,11 @@ export default {
     values: [
       'permanent-collection',
       'education-collection',
+      'outdoor-collection',
       'props-and-design',
       'sites-and-facilities',
+      'active-use-collection',
+      'architectural-salvaged-collection',
     ],
     messages: defineMessages({
       'permanent-collection': {
@@ -342,15 +345,27 @@ export default {
       },
       'education-collection': {
         id: 'option.collections.education-collection',
-        defaultMessage: 'education collection',
+        defaultMessage: 'programming collection',
+      },
+      'outdoor-collection': {
+        id: 'option.collections.outdoor-collection',
+        defaultMessage: 'outdoor collection',
       },
       'props-and-design': {
         id: 'option.collections.props-and-design',
-        defaultMessage: 'props and design',
+        defaultMessage: 'display collection',
       },
       'sites-and-facilities': {
         id: 'option.collections.sites-and-facilities',
-        defaultMessage: 'sites-and-facilities',
+        defaultMessage: 'sites and facilities',
+      },
+      'active-use-collection': {
+        id: 'option.collections.active-use-collection',
+        defaultMessage: 'active use collection',
+      },
+      'architectural-salvaged-collection': {
+        id: 'option.collections.architectural-salvaged-collection',
+        defaultMessage: 'architectural/salvaged collection',
       },
     }),
   },
