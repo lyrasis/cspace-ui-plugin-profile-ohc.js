@@ -7,7 +7,6 @@ const template = (configContext) => {
 
   const {
     Panel,
-    Row,
     Cols,
     Col,
   } = configContext.layoutComponents;

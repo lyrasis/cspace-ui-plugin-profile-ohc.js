@@ -5,21 +5,19 @@ export default (configContext) => {
 
   const {
     Panel,
-    Row,
     Cols,
     Col,
   } = configContext.layoutComponents;
 
   const {
     Field,
-    InputTable,
   } = configContext.recordComponents;
 
   return (
     <Field name="localityGroupList" subpath="ns2:collectionobjects_anthro">
       <Field name="localityGroup">
         <Panel>
-         <Cols>
+          <Cols>
             <Col>
               <Field name="fieldLocVerbatim" />
             </Col>
