@@ -22,13 +22,13 @@ export default () => ({
           id: 'option.departments.archaeology',
           defaultMessage: 'Archaeology',
         },
+        education: {
+          id: 'option.departments.education',
+          defaultMessage: 'Center and Village',
+        },
         design: {
           id: 'option.departments.design',
           defaultMessage: 'Design',
-        },
-        education: {
-          id: 'option.departments.education',
-          defaultMessage: 'Education',
         },
         history: {
           id: 'option.departments.history',
