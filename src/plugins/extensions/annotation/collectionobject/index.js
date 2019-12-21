@@ -1,5 +1,5 @@
 import form from './form';
 
-export default configContext => ({
+export default (configContext) => ({
   form: form(configContext),
 });

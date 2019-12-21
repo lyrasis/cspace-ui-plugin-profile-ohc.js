@@ -7,7 +7,7 @@ import progHistoryForm from './prog-history';
 import naturalHistoryForm from './naturalhistory';
 import progNaturalHistoryForm from './prog-naturalhistory';
 
-export default configContext => ({
+export default (configContext) => ({
   default: defaultForm(configContext),
   'archeology-parent': archeologyParentForm(configContext),
   'archeology-child': archeologyChildForm(configContext),

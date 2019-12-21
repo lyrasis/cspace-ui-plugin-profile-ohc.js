@@ -1,7 +1,7 @@
 import archeologyForm from './archeology';
 import historyForm from './history';
 
-export default configContext => ({
+export default (configContext) => ({
   doorstep: {
     disabled: true,
   },

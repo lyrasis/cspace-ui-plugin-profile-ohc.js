@@ -215,7 +215,7 @@ const template = (configContext) => {
             </Field>
 
             <Field name="objectProductionPlaceGroupList">
-              <Field name="objectProductionPlaceGroup" >
+              <Field name="objectProductionPlaceGroup">
                 <Field name="objectProductionPlace" />
                 <Field name="objectProductionPlaceRole" />
               </Field>
@@ -639,6 +639,6 @@ const template = (configContext) => {
   );
 };
 
-export default configContext => ({
+export default (configContext) => ({
   template: template(configContext),
 });

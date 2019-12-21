@@ -1,4 +1,4 @@
-export default configContext => (data) => {
+export default (configContext) => (data) => {
   const {
     deepGet,
     getPart,
@@ -31,5 +31,5 @@ export default configContext => (data) => {
     titleSuffix = title;
   }
 
-  return [objectNumber, titleSuffix].filter(part => !!part).join(' - ');
+  return [objectNumber, titleSuffix].filter((part) => !!part).join(' - ');
 };

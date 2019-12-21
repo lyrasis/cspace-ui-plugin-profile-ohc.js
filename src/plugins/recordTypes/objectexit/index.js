@@ -1,7 +1,7 @@
 import optionLists from './optionLists';
 import forms from './forms';
 
-export default () => configContext => ({
+export default () => (configContext) => ({
   optionLists,
   recordTypes: {
     objectexit: {
