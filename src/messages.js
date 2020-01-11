@@ -1,54 +1,23 @@
 export default {
-  'about.title': 'Welcome to the OHC CollectionSpace Site',
-  'about.contentHTML': `
-    <p>
-      CollectionSpace is a free, open-source collections management application for museums,
-      historical societies, natural science collections, and more.
-    </p>
-    <p>
-      This demo site is running the
-      <a href="http://www.collectionspace.org/current_release/">current version</a> the
-      <a href="https://collectionspace.atlassian.net/wiki/x/BYA_K">anthropology profile</a> of
-      CollectionSpace, which includes fields and procedures useful for anthropology collections. If
-      you’re interested in a version of CollectionSpace configured to meet the needs of a different
-      domain, please visit our <a href="https://www.collectionspace.org/demo/">demo landing page</a>
-      to view all available options. Examples include Botanical Garden, Fine Art,
-      Herbarium, Local History &amp; Material Culture, and Public Art.
-    </p>
-    <p>
-      To log in, use the email <strong>admin@anthro.collectionspace.org</strong>, with the
-      case-sensitive password <strong>Administrator</strong>. To view in read-only mode, use the
-      email <strong>reader@anthro.collectionspace.org</strong> with the password
-      <strong>reader</strong>.
-    </p>
-    <p>
-      Not sure where to get started? Follow along with one of our quick-start guides:
-    </p>
-    <ul>
-      <li>
-        <span>Create a new object:</span>
-        <a href="http://bit.ly/newobjpdf">PDF</a>
-        <a href="https://vimeo.com/112212895">Screencast</a>
-      </li>
-      <li>
-        <span>Link to an image:</span>
-        <a href="http://bit.ly/linkimgpdf">PDF</a>
-        <a href="https://vimeo.com/112214418">Screencast</a>
-      </li>
-      <li>
-        <span>Add a storage location:</span>
-        <a href="http://bit.ly/storlocpdf">PDF</a>
-        <a href="https://vimeo.com/112818120">Screencast</a>
-      </li>
-    </ul>
-    <p>
-    </p>
-  `,
-  'field.collectionobjects_common.objectProductionPeopleGroup.name': 'Production cultural group',
+  'about.title': 'Welcome to CollectionSpace: OHC',
+
+  // acquisition
+
   'field.acquisitions_common.acquisitionProvisos.name': 'Restrictions',
-  'field.intakes_common.packingNote.name': 'Rationale',
+  'field.acquisitions_common.acquisitionReferenceNumber.name': 'Accession number',
+
+  // collectionobject
+
+  'field.collectionobjects_common.objectProductionPeopleGroup.name': 'Production cultural group',
   'field.collectionobjects_common.physicalDescription.name': 'Lettered parts',
+
+  // intake
+
+  'field.intakes_common.packingNote.name': 'Rationale',
+
+
+  // objectexit
+
   'field.objectexit_common.exitNote.name': 'Exit rationale',
   'field.objectexit_common.packingNote.name': 'Additional notes',
-  'field.acquisitions_common.acquisitionReferenceNumber.name': 'Accession number',
 };
