@@ -171,8 +171,6 @@ const template = (configContext) => {
         </Row>
       </Panel>
 
-
-
       <Panel name="locality" collapsible collapsed>
         <CompoundInput subpath="ns2:collectionobjects_anthro">
           {extensions.locality.form}
