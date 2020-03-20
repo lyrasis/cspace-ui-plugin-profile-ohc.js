@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.0.1
+
+- Adds values to option lists: departments, numberTypes
+
 ## v1.0.0
 
 ### Breaking Changes
