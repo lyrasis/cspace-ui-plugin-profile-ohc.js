@@ -9,7 +9,7 @@ export default () => ({
     departments: {
       values: [
         'archaeology',
-        'archaeology-nagpra',  
+        'archaeology-nagpra',
         'design',
         'education',
         'history',
