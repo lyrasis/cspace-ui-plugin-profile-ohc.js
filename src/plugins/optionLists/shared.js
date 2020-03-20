@@ -23,7 +23,7 @@ export default () => ({
           id: 'option.departments.archaeology',
           defaultMessage: 'Archaeology',
         },
-        archaeology-nagpra: {
+        'archaeology-nagpra': {
           id: 'option.departments.archaeology-nagpra',
           defaultMessage: 'Archaeology - NAGPRA',
         },
