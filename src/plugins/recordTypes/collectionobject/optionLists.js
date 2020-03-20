@@ -391,6 +391,8 @@ export default {
   },
   numberTypes: {
     values: [
+      'AccessCommingledID',
+      'AccessSkeletalID',  
       'Additional File Number',
       'Archives/Library Negative Number',
       'Barcode Number',
@@ -411,6 +413,14 @@ export default {
       'STARid',
     ],
     messages: defineMessages({
+      'AccessCommingledID': {
+        id: 'option.numberTypes.AccessCommingledID',
+        defaultMessage: 'AccessCommingledID',
+      },
+      'AccessSkeletalID': {
+        id: 'option.numberTypes.AccessSkeletalID',
+        defaultMessage: 'AccessSkeletalID',
+      },
       'Additional File Number': {
         id: 'option.numberTypes.Additional File Number',
         defaultMessage: 'Additional File Number',

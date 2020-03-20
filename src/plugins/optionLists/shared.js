@@ -9,6 +9,7 @@ export default () => ({
     departments: {
       values: [
         'archaeology',
+        'archaeology-nagpra',  
         'design',
         'education',
         'history',
@@ -21,6 +22,10 @@ export default () => ({
         archaeology: {
           id: 'option.departments.archaeology',
           defaultMessage: 'Archaeology',
+        },
+        archaeology-nagpra: {
+          id: 'option.departments.archaeology-nagpra',
+          defaultMessage: 'Archaeology - NAGPRA',
         },
         education: {
           id: 'option.departments.education',
