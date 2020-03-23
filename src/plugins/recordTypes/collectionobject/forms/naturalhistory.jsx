@@ -27,6 +27,47 @@ const template = (configContext) => {
 
   return (
     <Field name="document">
+      <Panel name="desc" collapsible>
+        <Row>
+          <Col>
+            <Field name="forms">
+              <Field name="form" />
+            </Field>
+          </Col>
+        </Row>
+
+        <Panel name="bio" collapsible>
+          <Cols>
+            <Col>
+              <Row>
+                <Field name="sex" />
+                <Field name="phase" />
+              </Row>
+              <Field name="majorTaxon" subpath="ns2:collectionobjects_ohc" />
+            </Col>
+
+            <Col>
+              <InputTable name="age">
+                <Field name="ageQualifier" />
+                <Field name="age" />
+                <Field name="ageUnit" />
+              </InputTable>
+            </Col>
+          </Cols>
+
+          {extensions.naturalhistory.collectionobject.form.taxonomicIdentGroupList}
+        </Panel>
+
+        <Panel name="content" collapsible collapsed>
+          <Row>
+            <Col>
+              <Field name="contentDateGroup" />
+            </Col>
+          </Row>
+        </Panel>
+
+      </Panel>
+
       <Panel name="id" collapsible>
         <Row>
           <Col>
@@ -128,47 +169,6 @@ const template = (configContext) => {
             </Field>
           </Col>
         </Row>
-      </Panel>
-
-      <Panel name="desc" collapsible collapsed>
-        <Row>
-          <Col>
-            <Field name="forms">
-              <Field name="form" />
-            </Field>
-          </Col>
-        </Row>
-
-        <Panel name="bio" collapsible collapsed>
-          <Cols>
-            <Col>
-              <Row>
-                <Field name="sex" />
-                <Field name="phase" />
-              </Row>
-              <Field name="majorTaxon" subpath="ns2:collectionobjects_ohc" />
-            </Col>
-
-            <Col>
-              <InputTable name="age">
-                <Field name="ageQualifier" />
-                <Field name="age" />
-                <Field name="ageUnit" />
-              </InputTable>
-            </Col>
-          </Cols>
-
-          {extensions.naturalhistory.collectionobject.form.taxonomicIdentGroupList}
-        </Panel>
-
-        <Panel name="content" collapsible collapsed>
-          <Row>
-            <Col>
-              <Field name="contentDateGroup" />
-            </Col>
-          </Row>
-        </Panel>
-
       </Panel>
 
       <Panel name="locality" collapsible collapsed>
