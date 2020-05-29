@@ -15,7 +15,6 @@ export default {
 
   'field.intakes_common.packingNote.name': 'Rationale',
 
-
   // objectexit
 
   'field.objectexit_common.exitNote.name': 'Exit rationale',
