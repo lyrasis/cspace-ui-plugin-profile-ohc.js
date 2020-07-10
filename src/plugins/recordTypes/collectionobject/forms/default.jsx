@@ -75,17 +75,9 @@ const template = (configContext) => {
             <Field name="objectName" />
             <Field name="objectNameCurrency" />
             <Field name="objectNameLevel" />
-            <Field name="objectNameSystem" />
             <Field name="objectNameType" />
             <Field name="objectNameLanguage" />
             <Field name="objectNameNote" />
-          </Field>
-        </Field>
-
-        <Field name="categoryGroupList" subpath="ns2:collectionobjects_ohc">
-          <Field name="categoryGroup">
-            <Field name="category" />
-            <Field name="subCategory" />
           </Field>
         </Field>
 
