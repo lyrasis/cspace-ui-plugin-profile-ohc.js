@@ -70,13 +70,6 @@ const template = (configContext) => {
           </Col>
         </Row>
 
-        <Field name="categoryGroupList" subpath="ns2:collectionobjects_ohc">
-          <Field name="categoryGroup">
-            <Field name="category" />
-            <Field name="subCategory" />
-          </Field>
-        </Field>
-
         <Cols>
           <Col>
             <Field name="assocPeopleGroupList">
