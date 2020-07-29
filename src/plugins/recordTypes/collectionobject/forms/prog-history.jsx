@@ -57,7 +57,6 @@ const template = (configContext) => {
               <Field name="inventoryStatus" />
             </Field>
 
-
           </Col>
         </Row>
 

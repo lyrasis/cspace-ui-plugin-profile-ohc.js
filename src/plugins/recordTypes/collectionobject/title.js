@@ -8,7 +8,6 @@ export default (configContext) => (data) => {
     getDisplayName,
   } = configContext.refNameHelpers;
 
-
   if (!data) {
     return '';
   }

@@ -117,7 +117,6 @@ const template = (configContext) => {
             </Panel>
           </Field>
         </Field>
-
       </Panel>
 
       <Panel name="collect" collapsible collapsed>
@@ -131,6 +130,7 @@ const template = (configContext) => {
             </Field>
           </Col>
         </Row>
+
         <Row>
           <Col>
             <Field name="fieldCollectionDateGroup" />
@@ -175,6 +175,7 @@ const template = (configContext) => {
               <Field name="namedTimePeriod" />
             </Field>
           </Col>
+
           <Col>
             <Field name="objectProductionPeopleGroupList">
               <Field name="objectProductionPeopleGroup">
@@ -204,7 +205,6 @@ const template = (configContext) => {
       {extensions.culturalcare.collectionobject.form}
 
       <Panel name="desc" collapsible collapsed>
-
         <Panel name="content" collapsible collapsed>
           <Row>
             <Col>
@@ -219,9 +219,7 @@ const template = (configContext) => {
       </Panel>
 
       <Panel name="hist" collapsible collapsed>
-
         <Field name="objectHistoryNote" />
-
 
         <Field name="anthroOwnershipGroupList" subpath="ns2:collectionobjects_anthro">
           <Field name="anthroOwnershipGroup">

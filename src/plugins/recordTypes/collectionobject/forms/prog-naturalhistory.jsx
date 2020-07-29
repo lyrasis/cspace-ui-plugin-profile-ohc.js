@@ -118,7 +118,6 @@ const template = (configContext) => {
               <Field name="fieldCollectionMethod" />
             </Field>
 
-
             <Field name="fieldCollectors">
               <Field name="fieldCollector" />
             </Field>
