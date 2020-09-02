@@ -7,7 +7,6 @@ export default {
       'egg',
       'envelope',
       'feather',
-      'feathers',
       'fossil',
       'fossil tracks',
       'hair',
@@ -46,10 +45,6 @@ export default {
       feather: {
         id: 'option.forms.feather',
         defaultMessage: 'feather',
-      },
-      feathers: {
-        id: 'option.forms.feathers',
-        defaultMessage: 'feathers',
       },
       fossil: {
         id: 'option.forms.fossil',
