@@ -281,6 +281,7 @@ export default {
       'female',
       'male',
       'indeterminate',
+      'mixed',
     ],
     messages: defineMessages({
       female: {
@@ -294,6 +295,10 @@ export default {
       indeterminate: {
         id: 'option.sexes.indeterminate',
         defaultMessage: 'indeterminate',
+      },
+      mixed: {
+        id: 'option.sexes.mixed',
+        defaultMessage: 'mixed',
       },
     }),
   },
