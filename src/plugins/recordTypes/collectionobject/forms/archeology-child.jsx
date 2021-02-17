@@ -45,7 +45,11 @@ const template = (configContext) => {
             </Field>
 
             <Field name="collection" />
-            <Field name="namedCollection" subpath="ns2:collectionobjects_ohc" />
+            
+            <Field name="namedCollections">
+              <Field name="namedCollection" />
+            </Field>
+
             <Field name="descriptionLevel" subpath="ns2:collectionobjects_ohc" />
             <Field name="recordStatus" />
           </Col>
