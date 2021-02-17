@@ -117,22 +117,6 @@ export default (configContext) => {
             },
           },
         },
-        namedCollection: {
-          [config]: {
-            messages: defineMessages({
-              name: {
-                id: 'field.collectionobjects_ohc.namedCollection.name',
-                defaultMessage: 'Named collection',
-              },
-            }),
-            view: {
-              type: AutocompleteInput,
-              props: {
-                source: 'work/local',
-              },
-            },
-          },
-        },
         categoryGroupList: {
           [config]: {
             view: {
