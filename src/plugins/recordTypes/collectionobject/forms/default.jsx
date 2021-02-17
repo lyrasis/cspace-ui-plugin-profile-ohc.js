@@ -43,7 +43,7 @@ const template = (configContext) => {
             </Field>
 
             <Field name="collection" />
-            
+
             <Field name="namedCollections">
               <Field name="namedCollection" />
             </Field>
