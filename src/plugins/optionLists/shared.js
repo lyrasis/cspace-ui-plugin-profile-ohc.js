@@ -10,8 +10,9 @@ export default () => ({
       values: [
         'archaeology',
         'archaeology-nagpra',
-        'design',
         'education',
+        'collection-management',
+        'design',
         'history',
         'natural-history',
         'registrar',
@@ -30,6 +31,10 @@ export default () => ({
         education: {
           id: 'option.departments.education',
           defaultMessage: 'Center and Village',
+        },
+        'collection-management': {
+          id: 'option.departments.collection-management',
+          defaultMessage: 'Collection Management',
         },
         design: {
           id: 'option.departments.design',
