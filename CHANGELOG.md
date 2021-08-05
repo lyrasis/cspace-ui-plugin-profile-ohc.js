@@ -1,5 +1,28 @@
 # Change Log
 
+## v1.0.5
+
+- Adds 'collection-management' to shared `departments` option list
+- Alphabetizes display terms in shared `departments` option list
+
+## v1.0.4 
+
+- Remove the custom single-valued Named Collection field created for OHC, as the profile will now use the multi-valued Named Collection field that has been added to the community profiles
+
+## v1.0.3
+
+- Add 'mixed' to the collectionobject `sexes` option list
+
+## v1.0.2
+
+- Remove 'feathers' from collectionobject `forms` option list, leaving `feather`
+
+## v1.0.1
+
+- Remove `objectNameSystem` and `category` fields from  Default, History, History Programming, Archaeology Child, Archaeology Programming templates
+- Remove `category` fields from Archaeology Parent template
+- Add new `hazards` option list to conditioncheck
+
 ## v1.0.0
 
 - Adds values to option lists: departments, numberTypes
