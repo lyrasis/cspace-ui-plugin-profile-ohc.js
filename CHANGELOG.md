@@ -1,6 +1,6 @@
 # Change Log
 
-o## v1.0.6
+## v1.0.6
 
 - Adds 'naamcc' (National Afro-American Museum & Cultural Center) and 'poindexter-village' (Poindexter Village) to shared `departments` option list
 
