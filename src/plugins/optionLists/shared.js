@@ -14,7 +14,9 @@ export default () => ({
         'collection-management',
         'design',
         'history',
+        'naamcc',
         'natural-history',
+        'poindexter-village',
         'registrar',
         'sites',
       ],
@@ -44,9 +46,17 @@ export default () => ({
           id: 'option.departments.history',
           defaultMessage: 'History',
         },
+        naamcc: {
+          id: 'option.departments.naamcc',
+          defaultMessage: 'National Afro-American Museum & Cultural Center',
+        },
         'natural-history': {
           id: 'option.departments.natural-history',
           defaultMessage: 'Natural History',
+        },
+        'poindexter-village': {
+          id: 'option.departments.poindexter-village',
+          defaultMessage: 'Poindexter Village',
         },
         registrar: {
           id: 'option.departments.registrar',
