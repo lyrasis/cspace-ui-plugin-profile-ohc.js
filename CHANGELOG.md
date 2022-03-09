@@ -1,5 +1,11 @@
 # Change Log
 
+## v1.0.7
+
+- Changes to acquisitionMethods option list values
+  - Remove `curationAgreement` and `gift`
+  - Add `curated-on-behalf-of-federal-government`, `curated-on-behalf-of-state-government`, and `curated-on-behalf-of-tribal-government`
+
 ## v1.0.6
 
 - Adds 'naamcc' (National Afro-American Museum & Cultural Center) and 'poindexter-village' (Poindexter Village) to shared `departments` option list
