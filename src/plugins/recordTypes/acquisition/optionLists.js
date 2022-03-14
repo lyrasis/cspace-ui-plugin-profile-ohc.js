@@ -4,11 +4,12 @@ export default {
   acquisitionMethods: {
     values: [
       'bequest',
-      'curationAgreement',
+      'curated-on-behalf-of-federal-government',
+      'curated-on-behalf-of-state-government',
+      'curated-on-behalf-of-tribal-government',
       'donation',
       'fieldCollected',
       'foundInCollection',
-      'gift',
       'loan',
       'purchase',
       'staffCurated',
@@ -18,6 +19,18 @@ export default {
       bequest: {
         id: 'option.acquisitionMethods.bequest',
         defaultMessage: 'bequest',
+      },
+      'curated-on-behalf-of-federal-government': {
+        id: 'option.acquisitionMethods.curated-on-behalf-of-federal-government',
+        defaultMessage: 'curated on behalf of federal government',
+      },
+      'curated-on-behalf-of-state-government': {
+        id: 'option.acquisitionMethods.curated-on-behalf-of-state-government',
+        defaultMessage: 'curated on behalf of state government',
+      },
+      'curated-on-behalf-of-tribal-government': {
+        id: 'option.acquisitionMethods.curated-on-behalf-of-tribal-government',
+        defaultMessage: 'curated on behalf of tribal government',
       },
       donation: {
         id: 'option.acquisitionMethods.donation',
