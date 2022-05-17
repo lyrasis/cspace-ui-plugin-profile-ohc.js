@@ -13,6 +13,7 @@ export default () => ({
         'education',
         'collection-management',
         'design',
+        'ethnographic',
         'history',
         'naamcc',
         'natural-history',
@@ -41,6 +42,10 @@ export default () => ({
         design: {
           id: 'option.departments.design',
           defaultMessage: 'Design',
+        },
+        ethnographic: {
+          id: 'option.departments.ethnographic',
+          defaultMessage: 'Ethnographic',
         },
         history: {
           id: 'option.departments.history',

@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.0.8
+
+- Add `ethnographic` to departments option list values
+
 ## v1.0.7
 
 - Changes to acquisitionMethods option list values
