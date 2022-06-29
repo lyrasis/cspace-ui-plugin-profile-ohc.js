@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.0.9
+
+- Add `OHPOID Number` and `NADB Number` to `numberTypes` option list values
+
 ## v1.0.8
 
 - Add `ethnographic` to departments option list values

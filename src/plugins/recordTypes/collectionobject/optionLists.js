@@ -402,8 +402,10 @@ export default {
       'Field Sheet Number',
       'Fine Arts Card Number',
       'FIPS Number',
+      'NADB Number',
       'OAI Number',
       'OHI Number',
+      'OHPOID Number',
       'OhioPix File Name',
       'Old Ledger #1',
       'Old Ledger #2',
@@ -448,6 +450,10 @@ export default {
         id: 'option.numberTypes.FIPS Number',
         defaultMessage: 'FIPS Number',
       },
+      'NADB Number': {
+        id: 'option.numberTypes.NADB Number',
+        defaultMessage: 'NADB Number',
+      },
       'OAI Number': {
         id: 'option.numberTypes.OAI Number',
         defaultMessage: 'OAI Number',
@@ -455,6 +461,10 @@ export default {
       'OHI Number': {
         id: 'option.numberTypes.OHI Number',
         defaultMessage: 'OHI Number',
+      },
+      'OHPOID Number': {
+        id: 'option.numberTypes.OHPOID Number',
+        defaultMessage: 'OHPOID Number',
       },
       'OhioPix File Name': {
         id: 'option.numberTypes.OhioPix File Name',
