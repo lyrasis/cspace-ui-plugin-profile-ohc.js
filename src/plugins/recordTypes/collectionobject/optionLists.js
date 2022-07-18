@@ -403,6 +403,8 @@ export default {
       'Fine Arts Card Number',
       'FIPS Number',
       'NADB Number',
+      'National Historic Landmark Number',
+      'National Register Number',
       'OAI Number',
       'OHI Number',
       'OHPOID Number',
@@ -453,6 +455,14 @@ export default {
       'NADB Number': {
         id: 'option.numberTypes.NADB Number',
         defaultMessage: 'NADB Number',
+      },
+      'National Historic Landmark Number': {
+        id: 'option.numberTypes.National Historic Landmark Number',
+        defaultMessage: 'National Historic Landmark Number',
+      },
+      'National Register Number': {
+        id: 'option.numberTypes.National Register Number',
+        defaultMessage: 'National Register Number',
       },
       'OAI Number': {
         id: 'option.numberTypes.OAI Number',
