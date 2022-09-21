@@ -29,7 +29,7 @@ export default () => ({
         },
         'archaeology-nagpra': {
           id: 'option.departments.archaeology-nagpra',
-          defaultMessage: 'Archaeology - NAGPRA',
+          defaultMessage: 'NAGPRA',
         },
         education: {
           id: 'option.departments.education',
