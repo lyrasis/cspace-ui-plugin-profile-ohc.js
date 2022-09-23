@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.0.11
+
+- Change departments `Archaeology - NAGPRA` display value to `NAGPRA`
 ## v1.0.10
 
 - Add `National Historic Landmark Number` and `National Register Number` to `numberTypes` option list values
