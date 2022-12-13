@@ -201,6 +201,8 @@ const template = (configContext) => {
                 <Field name="objectProductionOrganizationRole" />
               </Field>
             </Field>
+
+            <Field name="objectProductionNote" />
           </Col>
         </Row>
       </Panel>
