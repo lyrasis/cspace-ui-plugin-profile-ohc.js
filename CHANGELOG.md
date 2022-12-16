@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.0.12
+
+- Update archaeology templates (ZD-14338)
+
 ## v1.0.11
 
 - Change departments `Archaeology - NAGPRA` display value to `NAGPRA`
