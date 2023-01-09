@@ -1,5 +1,13 @@
 # Change Log
 
+## v1.0.13
+
+- Add `Detective`, `Lieutenant`, and `Sergeant` to `personTitles` optionList. This required adding `person` recordType override to the plugin.
+
+## v1.0.12
+
+- Update archaeology templates (ZD-14338)
+
 ## v1.0.11
 
 - Change departments `Archaeology - NAGPRA` display value to `NAGPRA`
