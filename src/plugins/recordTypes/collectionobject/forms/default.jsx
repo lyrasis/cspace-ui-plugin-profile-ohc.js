@@ -675,25 +675,25 @@ const template = (configContext) => {
                 </Row>
               </Row>
 
-             <Row>
-               <Field name="agreementSent" />
-               <Field name="agreementReceived" />
-               <Field name="agreementSigned" />
-             </Row>
+              <Row>
+                <Field name="agreementSent" />
+                <Field name="agreementReceived" />
+                <Field name="agreementSigned" />
+              </Row>
 
-             <Cols>
-               <Col>
-                 <Field name="rightInRestrictions">
-                   <Field name="rightInRestriction" />
-                 </Field>
-               </Col>
+              <Cols>
+                <Col>
+                  <Field name="rightInRestrictions">
+                    <Field name="rightInRestriction" />
+                  </Field>
+                </Col>
 
-               <Col>
-                 <Field name="rightReproductionStatement" />
-               </Col>
-             </Cols>
+                <Col>
+                  <Field name="rightReproductionStatement" />
+                </Col>
+              </Cols>
 
-             <Field name="rightInNote" />
+              <Field name="rightInNote" />
             </Panel>
           </Field>
         </Field>
