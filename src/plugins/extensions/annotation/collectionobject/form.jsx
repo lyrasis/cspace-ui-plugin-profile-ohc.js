@@ -1,16 +1,22 @@
 export default (configContext) => {
   const {
+    layoutComponents,
+    lib,
+    recordComponents,
+  } = configContext;
+
+  const {
     React,
-  } = configContext.lib;
+  } = lib;
 
   const {
     Field,
-  } = configContext.recordComponents;
+  } = recordComponents;
 
   const {
     Panel,
     Row,
-  } = configContext.layoutComponents;
+  } = layoutComponents;
 
   return (
     <div>
