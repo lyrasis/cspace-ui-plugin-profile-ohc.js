@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.0.17
+
+- Add option list override for movement recordType, and add custom terms to `moveMethods` option list.
+
 ## v1.0.13
 
 - Add `Detective`, `Lieutenant`, and `Sergeant` to `personTitles` optionList. This required adding `person` recordType override to the plugin.
@@ -38,7 +42,7 @@
 - Adds 'collection-management' to shared `departments` option list
 - Alphabetizes display terms in shared `departments` option list
 
-## v1.0.4 
+## v1.0.4
 
 - Remove the custom single-valued Named Collection field created for OHC, as the profile will now use the multi-valued Named Collection field that has been added to the community profiles
 
