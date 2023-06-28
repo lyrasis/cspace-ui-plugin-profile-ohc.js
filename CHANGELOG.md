@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.0.18
+
+- Add new custom term to `moveMethods` option list.
+
 ## v1.0.17
 
 - Add option list override for movement recordType, and add custom terms to `moveMethods` option list.
