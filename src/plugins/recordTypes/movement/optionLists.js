@@ -9,6 +9,7 @@ export default {
       'blanket wrapped',
       'crate',
       'custom box',
+      'custom mount',
       'drawer',
       'fragile',
       'garment rack',
@@ -44,6 +45,10 @@ export default {
       'custom box': {
         id: 'option.moveMethods.custom box',
         defaultMessage: 'custom box',
+      },
+      'custom mount': {
+        id: 'option.moveMethods.custom mount',
+        defaultMessage: 'custom mount',
       },
       drawer: {
         id: 'option.moveMethods.drawer',
