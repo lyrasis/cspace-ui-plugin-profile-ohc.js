@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.0.19
+
+- Add "metal-edge textile box, standard" and "metal-edge textile box, wide"  to `moveMethods` option list.
+
 ## v1.0.18
 
 - Add new custom term to `moveMethods` option list.

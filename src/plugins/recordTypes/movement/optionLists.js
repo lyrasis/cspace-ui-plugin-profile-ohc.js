@@ -17,6 +17,8 @@ export default {
       'hazardous',
       'heavy',
       "large banker's box",
+      'metal-edge textile box, standard',
+      'metal-edge textile box, wide',
       'pallet',
       "small banker's box",
       'speed pack',
@@ -77,6 +79,14 @@ export default {
       "large banker's box": {
         id: "option.moveMethods.large banker's box",
         defaultMessage: "large banker's box",
+      },
+      'metal-edge textile box, standard': {
+        id: 'option.moveMethods.metal-edge textile box, standard',
+        defaultMessage: 'metal-edge textile box, standard',
+      },
+      'metal-edge textile box, wide': {
+        id: 'option.moveMethods.metal-edge textile box, wide',
+        defaultMessage: 'metal-edge textile box, wide',
       },
       pallet: {
         id: 'option.moveMethods.pallet',
