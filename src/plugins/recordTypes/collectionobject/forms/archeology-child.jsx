@@ -126,6 +126,10 @@ const template = (configContext) => {
         </Row>
         <Row>
           <Col>
+            <Field name="fieldCollectionSites">
+              <Field name="fieldCollectionSite" />
+            </Field>
+
             <Field name="fieldCollectionDateGroup" />
 
             <Field name="fieldCollectionMethods">
@@ -162,6 +166,10 @@ const template = (configContext) => {
           <Col>
             <Field name="objectProductionDateGroupList">
               <Field name="objectProductionDateGroup" />
+            </Field>
+
+            <Field name="objectProductionEras">
+              <Field name="objectProductionEra" />
             </Field>
 
             <Field name="namedTimePeriods" subpath="ns2:collectionobjects_ohc">
