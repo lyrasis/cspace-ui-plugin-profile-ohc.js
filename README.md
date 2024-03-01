@@ -22,7 +22,7 @@ To run the cspace-ui application configured with this plugin in development, usi
 production services API and the OHC production UI configuration:
 
 ```
-$ npm run devserver --back-end=https://cspace.ohiohistory.org
+$ npm run devserver --back-end=https://ohiohistory.collectionspace.org
 ```
 
 Then open a browser to http://localhost:8080.
