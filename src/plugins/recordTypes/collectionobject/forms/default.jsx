@@ -161,6 +161,10 @@ const template = (configContext) => {
         </Row>
         <Row>
           <Col>
+            <Field name="fieldCollectionSites">
+              <Field name="fieldCollectionSite" />
+            </Field>
+
             <Field name="fieldCollectionDateGroup" />
 
             <Field name="fieldCollectionMethods">
@@ -197,6 +201,10 @@ const template = (configContext) => {
           <Col>
             <Field name="objectProductionDateGroupList">
               <Field name="objectProductionDateGroup" />
+            </Field>
+
+            <Field name="objectProductionEras">
+              <Field name="objectProductionEra" />
             </Field>
 
             <Field name="namedTimePeriods" subpath="ns2:collectionobjects_ohc">
@@ -411,6 +419,10 @@ const template = (configContext) => {
                 </Field>
               </Field>
 
+              <Field name="contentEvents">
+                <Field name="contentEvent" />
+              </Field>
+
               <Field name="contentOtherGroupList">
                 <Field name="contentOtherGroup">
                   <Field name="contentOther" />
@@ -544,6 +556,10 @@ const template = (configContext) => {
                 <Field name="assocEventName" />
                 <Field name="assocEventNameType" />
               </InputTable>
+
+              <Field name="assocEvents">
+                <Field name="assocEvent" />
+              </Field>
 
               <Field name="assocEventOrganizations">
                 <Field name="assocEventOrganization" />
