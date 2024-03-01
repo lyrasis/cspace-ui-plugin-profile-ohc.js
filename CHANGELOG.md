@@ -1,5 +1,11 @@
 # Change Log
 
+## v1.1.0
+
+- Add 7.2 fields to object template overrides.
+  - Add `fieldCollectionSites` and `objectProductionEras` to archaeology and standard object templates.
+  - Add `contentEvents` and `assocEvents` to standard object template.
+
 ## v1.0.19
 
 - Add "metal-edge textile box, standard" and "metal-edge textile box, wide"  to `moveMethods` option list.
