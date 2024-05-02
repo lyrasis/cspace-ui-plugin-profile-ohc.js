@@ -4,7 +4,6 @@ export default (configContext) => {
   const {
     AutocompleteInput,
     CompoundInput,
-    TextInput,
     TermPickerInput,
   } = configContext.inputComponents;
 
