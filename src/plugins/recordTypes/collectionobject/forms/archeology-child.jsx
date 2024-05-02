@@ -116,16 +116,6 @@ const template = (configContext) => {
       <Panel name="collect" collapsible collapsed>
         <Row>
           <Col>
-            <Field name="oaiSiteGroupList" subpath="ns2:collectionobjects_ohc">
-              <Field name="oaiSiteGroup">
-                <Field name="oaiCollectionPlace" />
-                <Field name="oaiLocVerbatim" />
-              </Field>
-            </Field>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
             <Field name="fieldCollectionSites">
               <Field name="fieldCollectionSite" />
             </Field>
@@ -170,10 +160,6 @@ const template = (configContext) => {
 
             <Field name="objectProductionEras">
               <Field name="objectProductionEra" />
-            </Field>
-
-            <Field name="namedTimePeriods" subpath="ns2:collectionobjects_ohc">
-              <Field name="namedTimePeriod" />
             </Field>
           </Col>
           <Col>

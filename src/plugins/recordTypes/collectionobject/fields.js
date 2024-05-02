@@ -4,7 +4,6 @@ export default (configContext) => {
   const {
     AutocompleteInput,
     CompoundInput,
-    TextInput,
     TermPickerInput,
   } = configContext.inputComponents;
 
@@ -192,91 +191,6 @@ export default (configContext) => {
                 type: TermPickerInput,
                 props: {
                   source: 'apparelsizes',
-                },
-              },
-            },
-          },
-        },
-        namedTimePeriods: {
-          [config]: {
-            view: {
-              type: CompoundInput,
-            },
-          },
-          namedTimePeriod: {
-            [config]: {
-              messages: defineMessages({
-                name: {
-                  id: 'field.collectionobjects_ohc.namedTimePeriod.name',
-                  defaultMessage: 'Named time period',
-                },
-              }),
-              repeating: true,
-              view: {
-                type: TermPickerInput,
-                props: {
-                  source: 'namedtimeperiods',
-                },
-              },
-            },
-          },
-        },
-        oaiSiteGroupList: {
-          [config]: {
-            view: {
-              type: CompoundInput,
-            },
-          },
-          oaiSiteGroup: {
-            [config]: {
-              messages: defineMessages({
-                name: {
-                  id: 'field.collectionobjects_ohc.oaiSiteGroup.name',
-                  defaultMessage: 'OAI site',
-                },
-              }),
-              repeating: true,
-              view: {
-                type: CompoundInput,
-                props: {
-                  tabular: true,
-                },
-              },
-            },
-            oaiCollectionPlace: {
-              [config]: {
-                messages: defineMessages({
-                  fullName: {
-                    id: 'field.collectionobjects_ohc.oaiCollectionPlace.fullName',
-                    defaultMessage: 'OAI site',
-                  },
-                  name: {
-                    id: 'field.collectionobjects_ohc.oaiCollectionPlace.name',
-                    defaultMessage: 'Site',
-                  },
-                }),
-                view: {
-                  type: AutocompleteInput,
-                  props: {
-                    source: 'place/local,place/shared,place/tgn',
-                  },
-                },
-              },
-            },
-            oaiLocVerbatim: {
-              [config]: {
-                messages: defineMessages({
-                  fullName: {
-                    id: 'field.collectionobjects_ohc.oaiLocVerbatim.fullName',
-                    defaultMessage: 'OAI collection site (verbatim)',
-                  },
-                  name: {
-                    id: 'field.collectionobjects_ohc.oaiLocVerbatim.name',
-                    defaultMessage: 'Collection site (verbatim)',
-                  },
-                }),
-                view: {
-                  type: TextInput,
                 },
               },
             },
