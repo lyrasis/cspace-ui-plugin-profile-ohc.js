@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.1.1
+
+- Remove namedTimePeriod, oaiCollectionPlace, and oaiLocVerbatim.
+
 ## v1.1.0
 
 - Add 7.2 fields to object template overrides.
