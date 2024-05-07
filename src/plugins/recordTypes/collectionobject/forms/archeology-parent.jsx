@@ -30,7 +30,6 @@ const template = (configContext) => {
         <Row>
           <Col>
             <Field name="objectNumber" />
-            <Field name="numberOfObjects" />
 
             <Field name="otherNumberList">
               <Field name="otherNumber">
@@ -73,6 +72,16 @@ const template = (configContext) => {
             </Field>
           </Col>
         </Row>
+
+        <Field name="objectCountGroupList">
+          <Field name="objectCountGroup">
+            <Field name="objectCount" />
+            <Field name="objectCountType" />
+            <Field name="objectCountCountedBy" />
+            <Field name="objectCountDate" />
+            <Field name="objectCountNote" />
+          </Field>
+        </Field>
 
         <Cols>
           <Col>
@@ -136,7 +145,10 @@ const template = (configContext) => {
               <Field name="fieldCollectionMethod" />
             </Field>
 
-            <Field name="fieldCollectionPlace" />
+            <Field name="fieldCollectionPlaces">
+              <Field name="fieldCollectionPlace" />
+            </Field>
+
             <Field name="fieldLocVerbatim" subpath="ns2:collectionobjects_anthro" />
 
             <Field name="fieldCollectionSources">

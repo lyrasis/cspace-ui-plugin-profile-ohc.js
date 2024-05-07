@@ -59,7 +59,6 @@ const template = (configContext) => {
         <Row>
           <Col>
             <Field name="objectNumber" />
-            <Field name="numberOfObjects" />
 
             <Field name="otherNumberList">
               <Field name="otherNumber">
@@ -93,6 +92,16 @@ const template = (configContext) => {
 
           </Col>
         </Row>
+
+        <Field name="objectCountGroupList">
+          <Field name="objectCountGroup">
+            <Field name="objectCount" />
+            <Field name="objectCountType" />
+            <Field name="objectCountCountedBy" />
+            <Field name="objectCountDate" />
+            <Field name="objectCountNote" />
+          </Field>
+        </Field>
 
         {extensions.annotation.collectionobject.form}
         {extensions.dimension.form}
