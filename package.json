@@ -57,7 +57,7 @@
     "chai-immutable": "^1.6.0",
     "cross-env": "^2.0.0",
     "cspace-ui-plugin-profile-anthro": "^7.0.0",
-    "cspace-ui": "^8.0.0",
+    "cspace-ui": "^9.0.0",
     "css-loader": "^6.7.3",
     "eslint": "^6.7.2",
     "eslint-config-airbnb": "^18.0.1",
