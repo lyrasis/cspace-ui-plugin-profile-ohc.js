@@ -1,5 +1,12 @@
 # Change Log
 
+## v2.0.0
+
+Requires CSpace 8.0.
+
+- Replace numberOfObjects with objectCountGroupList in collectionobject forms.
+- Replace fieldCollectionPlace with fieldCollectionPlaces in collectionobject forms.
+
 ## v1.1.1
 
 - Remove namedTimePeriod, oaiCollectionPlace, and oaiLocVerbatim.
