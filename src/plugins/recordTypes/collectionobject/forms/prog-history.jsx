@@ -139,6 +139,9 @@ const template = (configContext) => {
               </Field>
             </Field>
 
+            <Field name="objectProductionPlacesVerbatim" subpath="ns2:collectionobjects_objectprod_extension">
+              <Field name="objectProductionPlaceVerbatim" />
+            </Field>
           </Col>
 
           <Col>
