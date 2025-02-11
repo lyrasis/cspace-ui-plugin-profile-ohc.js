@@ -60,6 +60,10 @@ const template = (configContext) => {
 
             <Field name="computedCurrentLocation" />
 
+            <Field name="ethnoFileCodes" subpath="ns2:collectionobjects_anthro">
+              <Field name="ethnoFileCode" />
+            </Field>
+
             <Field name="publishToList">
               <Field name="publishTo" />
             </Field>
