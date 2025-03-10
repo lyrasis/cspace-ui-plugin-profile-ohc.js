@@ -1,5 +1,9 @@
 # Change Log
 
+## v2.0.2
+
+- Remove duplicated value from conditioncheck optionlist: `oxidation`.
+
 ## v2.0.0
 
 Requires CSpace 8.0.

@@ -12,7 +12,7 @@ export default {
       'lead',
       'mold or mildew',
       'mercury',
-      'oxidation',
+      'other',
       'oxidation',
       'poisonous',
       'radioactive',
