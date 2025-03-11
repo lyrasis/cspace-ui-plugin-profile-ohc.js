@@ -60,6 +60,10 @@ const template = (configContext) => {
 
             <Field name="computedCurrentLocation" />
 
+            <Field name="ethnoFileCodes" subpath="ns2:collectionobjects_anthro">
+              <Field name="ethnoFileCode" />
+            </Field>
+
             <Field name="publishToList">
               <Field name="publishTo" />
             </Field>
@@ -73,6 +77,15 @@ const template = (configContext) => {
             </Field>
           </Col>
         </Row>
+
+        <Field name="objectCategoryGroupList" subpath="ns2:collectionobjects_objectcategory_extension">
+          <Field name="objectCategoryGroup">
+            <Field name="category" />
+            <Field name="categoryCount" />
+            <Field name="categoryCountUnit" />
+            <Field name="categoryNote" />
+          </Field>
+        </Field>
 
         <Field name="objectNameList">
           <Field name="objectNameGroup">
@@ -88,6 +101,7 @@ const template = (configContext) => {
         <Field name="objectCountGroupList">
           <Field name="objectCountGroup">
             <Field name="objectCount" />
+            <Field name="objectCountUnit" />
             <Field name="objectCountType" />
             <Field name="objectCountCountedBy" />
             <Field name="objectCountDate" />
@@ -274,6 +288,13 @@ const template = (configContext) => {
           <Field name="referenceGroup">
             <Field name="reference" />
             <Field name="referenceNote" />
+          </Field>
+        </Field>
+
+        <Field name="publishedRelatedLinkGroupList">
+          <Field name="publishedRelatedLinkGroup">
+            <Field name="relatedLink" />
+            <Field name="descriptiveTitle" />
           </Field>
         </Field>
       </Panel>

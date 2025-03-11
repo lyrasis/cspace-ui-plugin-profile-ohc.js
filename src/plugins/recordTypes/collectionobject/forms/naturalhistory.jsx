@@ -118,6 +118,7 @@ const template = (configContext) => {
         <Field name="objectCountGroupList">
           <Field name="objectCountGroup">
             <Field name="objectCount" />
+            <Field name="objectCountUnit" />
             <Field name="objectCountType" />
             <Field name="objectCountCountedBy" />
             <Field name="objectCountDate" />
@@ -198,6 +199,13 @@ const template = (configContext) => {
           <Field name="referenceGroup">
             <Field name="reference" />
             <Field name="referenceNote" />
+          </Field>
+        </Field>
+
+        <Field name="publishedRelatedLinkGroupList">
+          <Field name="publishedRelatedLinkGroup">
+            <Field name="relatedLink" />
+            <Field name="descriptiveTitle" />
           </Field>
         </Field>
       </Panel>

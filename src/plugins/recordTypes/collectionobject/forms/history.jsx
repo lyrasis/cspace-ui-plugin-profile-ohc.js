@@ -68,6 +68,15 @@ const template = (configContext) => {
           </Col>
         </Row>
 
+        <Field name="objectCategoryGroupList" subpath="ns2:collectionobjects_objectcategory_extension">
+          <Field name="objectCategoryGroup">
+            <Field name="category" />
+            <Field name="categoryCount" />
+            <Field name="categoryCountUnit" />
+            <Field name="categoryNote" />
+          </Field>
+        </Field>
+
         <Field name="objectNameList">
           <Field name="objectNameGroup">
             <Field name="objectName" />
@@ -82,6 +91,7 @@ const template = (configContext) => {
         <Field name="objectCountGroupList">
           <Field name="objectCountGroup">
             <Field name="objectCount" />
+            <Field name="objectCountUnit" />
             <Field name="objectCountType" />
             <Field name="objectCountCountedBy" />
             <Field name="objectCountDate" />
@@ -139,6 +149,10 @@ const template = (configContext) => {
                 <Field name="objectProductionPlace" />
                 <Field name="objectProductionPlaceRole" />
               </Field>
+            </Field>
+
+            <Field name="objectProductionPlacesVerbatim" subpath="ns2:collectionobjects_objectprod_extension">
+              <Field name="objectProductionPlaceVerbatim" />
             </Field>
 
             <Field name="objectProductionReasons">
@@ -223,6 +237,13 @@ const template = (configContext) => {
           <Field name="referenceGroup">
             <Field name="reference" />
             <Field name="referenceNote" />
+          </Field>
+        </Field>
+
+        <Field name="publishedRelatedLinkGroupList">
+          <Field name="publishedRelatedLinkGroup">
+            <Field name="relatedLink" />
+            <Field name="descriptiveTitle" />
           </Field>
         </Field>
       </Panel>
