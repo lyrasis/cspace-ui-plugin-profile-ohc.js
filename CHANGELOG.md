@@ -1,5 +1,16 @@
 # Change Log
 
+## v3.0.0
+
+- Add 8.1 fields to object template overrides
+  - Add `ethnoFilCode` to archaeology child template
+  - Add `objectCategoryGroupList` to archaeoloy, history, and default templates
+  - Add `objectCountUnit` to archaeology, history, and default templates
+  - Add `publishedRelatedLinkGroupList` to archaeology, history, and default templates
+  - Add `objectProductionPlacesVerbatim` to archaeology and default template
+  - Add `objectCategoryGroupList` to default template
+- Update cspace-ui to 10.0.0
+
 ## v2.0.2
 
 - Remove duplicated value from conditioncheck optionlist: `oxidation`.
