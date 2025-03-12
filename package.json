@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-profile-ohc",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "OHC profile plugin for the CollectionSpace UI",
   "author": "",
   "license": "ECL-2.0",
@@ -56,8 +56,8 @@
     "chai-as-promised": "^5.3.0",
     "chai-immutable": "^1.6.0",
     "cross-env": "^2.0.0",
+    "cspace-ui": "^10.0.2",
     "cspace-ui-plugin-profile-anthro": "^9.0.0",
-    "cspace-ui": "^10.0.0",
     "css-loader": "^6.7.3",
     "eslint": "^6.7.2",
     "eslint-config-airbnb": "^18.0.1",
