@@ -11,6 +11,7 @@ export default {
       'fieldCollected',
       'foundInCollection',
       'loan',
+      'naam',
       'purchase',
       'staffCurated',
       'transfer',
@@ -47,6 +48,10 @@ export default {
       loan: {
         id: 'option.acquisitionMethods.loan',
         defaultMessage: 'loan - TBD',
+      },
+      naam: {
+        id: 'option.acquisitionMethods.naam',
+        defaultMessage: 'naam - unknown',
       },
       purchase: {
         id: 'option.acquisitionMethods.purchase',
