@@ -11,6 +11,7 @@ export default {
       'fieldCollected',
       'foundInCollection',
       'loan',
+      'naam - unknown',
       'purchase',
       'staffCurated',
       'transfer',
