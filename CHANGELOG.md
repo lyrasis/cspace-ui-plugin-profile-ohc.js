@@ -1,5 +1,14 @@
 # Change Log
 
+## v3.2.0
+
+- Add 8.2, 8.3, 9.0 fields to object template overrides
+  - Add `controlledContentPlaces` to default template
+  - Add `objectProductionAgents` to archaeology, history, and default templates
+  - Add `homeLocationGroupList` to archaeology, history, and default templates
+  - Add `materialTechniqueDescription` to archaeology, history, and default templates
+- Update cspace-ui to 11.0.0
+
 ## v3.0.0
 
 - Add 8.1 fields to object template overrides
