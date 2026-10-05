@@ -48,6 +48,13 @@ const template = (configContext) => {
 
             <Field name="computedCurrentLocation" />
 
+            <Field name="homeLocationGroupList">
+              <Field name="homeLocationGroup">
+                <Field name="homeLocation" />
+                <Field name="homeLocationNote" />
+              </Field>
+            </Field>
+
             <Field name="publishToList">
               <Field name="publishTo" />
             </Field>
