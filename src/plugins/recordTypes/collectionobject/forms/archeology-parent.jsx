@@ -105,6 +105,8 @@ const template = (configContext) => {
 
         {extensions.annotation.collectionobject.form}
 
+        <Field name="materialTechniqueDescription" subpath="ns2:collectionobjects_anthro" />
+
         <Field name="materialGroupList">
           <Field name="materialGroup">
             <Field name="material" />
