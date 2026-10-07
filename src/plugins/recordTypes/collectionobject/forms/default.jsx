@@ -59,6 +59,13 @@ const template = (configContext) => {
 
             <Field name="computedCurrentLocation" />
 
+            <Field name="homeLocationGroupList">
+              <Field name="homeLocationGroup">
+                <Field name="homeLocation" />
+                <Field name="homeLocationNote" />
+              </Field>
+            </Field>
+
             <Field name="ethnoFileCodes" subpath="ns2:collectionobjects_anthro">
               <Field name="ethnoFileCode" />
             </Field>
@@ -124,6 +131,8 @@ const template = (configContext) => {
 
         {extensions.annotation.collectionobject.form}
         {extensions.dimension.form}
+
+        <Field name="materialTechniqueDescription" subpath="ns2:collectionobjects_anthro" />
 
         <Field name="materialGroupList">
           <Field name="materialGroup">
@@ -262,6 +271,10 @@ const template = (configContext) => {
                 <Field name="objectProductionOrganization" />
                 <Field name="objectProductionOrganizationRole" />
               </Field>
+            </Field>
+
+            <Field name="objectProductionAgents">
+              <Field name="objectProductionAgent" />
             </Field>
 
             <Field name="objectProductionNote" />
@@ -410,6 +423,10 @@ const template = (configContext) => {
 
               <Field name="contentPersons">
                 <Field name="contentPerson" />
+              </Field>
+
+              <Field name="controlledContentPlaces">
+                <Field name="controlledContentPlace" />
               </Field>
 
               <Field name="contentPlaces">
